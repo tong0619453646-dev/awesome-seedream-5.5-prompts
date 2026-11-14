@@ -1,0 +1,3339 @@
+{
+ "config": {
+  "slug": "seedream-5-5-prompts",
+  "path": "/seedream-5-5-prompts",
+  "model": "seedream-5.5",
+  "modelLabel": "Seedream 5.5",
+  "media": "image",
+  "playground": "image",
+  "categories": [
+   "photography",
+   "text-design",
+   "transparent-assets",
+   "illustration-characters"
+  ],
+  "updatedAt": "2026-11-14",
+  "cover": "/imgs/prompts/seedream-5-5-prompts.jpg"
+ },
+ "featured": [
+  "text-design-01",
+  "photography-01",
+  "transparent-assets-03",
+  "illustration-characters-01",
+  "photography-10",
+  "text-design-04"
+ ],
+ "page": {
+  "en": {
+   "metaTitle": "Seedream 5.5 Prompts — {n} Examples with Results",
+   "h1": "Seedream 5.5 Prompts",
+   "description": "Seedream 5.5 prompts: {n} examples with the images they made, from ByteDance Seed, BytePlus and creators: photos, posters, transparent PNGs, characters.",
+   "eyebrow": "Image prompt examples · {n}",
+   "subtitle": "Every result on this page was made with Seedream 5.5. Copy a prompt, or send it to the playground and change the details.",
+   "ctaPrimary": {
+    "label": "Run Seedream 5.5",
+    "href": "/models/seedream-5.5"
+   },
+   "ctaSecondary": {
+    "label": "Seedream 5.5 API docs",
+    "href": "/docs/api-manual/image-series/seedream-5.5/images"
+   },
+   "credit": "Prompts and results belong to the sources credited on each card: ByteDance Seed (the Seedream 5.5 model page), BytePlus ModelArk (the Seedream 5.5 docs) and creators whose own post or article names Seedream 5.5. Each card links to its source.",
+   "featured": "Featured Seedream 5.5 prompts",
+   "badge": "Seedream 5.5 prompt",
+   "imageAlt": "{title} – Seedream 5.5 prompt result",
+   "categories": {
+    "photography": {
+     "name": "Photography",
+     "intro": "Street, documentary, portrait and phone-snapshot prompts that test light, skin and materials."
+    },
+    "text-design": {
+     "name": "Text, posters and design",
+     "intro": "Newspapers, infographics, covers, labels and icons where the words have to come out right."
+    },
+    "transparent-assets": {
+     "name": "Transparent PNGs and edits",
+     "intro": "Native RGBA output: stickers, product cut-outs, semi-transparent glass, plus edits that keep the rest of the image."
+    },
+    "illustration-characters": {
+     "name": "Illustration and characters",
+     "intro": "Picture books, character sheets, storyboards, meme grids and toy designs."
+    }
+   },
+   "guide": {
+    "title": "How to write a Seedream 5.5 prompt",
+    "intro": "Four structures that recur in the prompts on this page.",
+    "items": [
+     {
+      "h": "Photograph it like a camera would",
+      "formula": "Format + angle + light source + film or lens + what stays imperfect",
+      "t": "The realism prompts name the frame (vertical 3:4, ultra-wide, tilted 25°), the light (flash, window light, sodium lamp) and the grain or underexposure they want."
+     },
+     {
+      "h": "Quote every word",
+      "formula": "Layout + \"exact text in quotes\" + hierarchy + \"no extra text\"",
+      "t": "Posters, labels and infographics put each line in quotes and say where it sits, then forbid invented words."
+     },
+     {
+      "h": "Ask for transparency in words and in the setting",
+      "formula": "Subject + \"transparent background\" + which parts are semi-transparent",
+      "t": "Asset prompts say which areas are empty, which are translucent and which stay opaque. Set Background to transparent as well."
+     },
+     {
+      "h": "Edit one thing, list what stays",
+      "formula": "Change X + keep A, B, C exactly",
+      "t": "Edit prompts name the single change and then list what must not move, which is how Seedream 5.5 keeps untouched pixels the same across rounds."
+     }
+    ]
+   },
+   "tips": {
+    "title": "What the examples show",
+    "items": [
+     {
+      "h": "Short prompts work for snapshots.",
+      "t": "One line such as \"phone snapshot, ultra-real, a Beijing hutong, snowing\" produced believable street photos with no camera settings."
+     },
+     {
+      "h": "Chinese text holds at small sizes.",
+      "t": "The butterfly infographic, the storyboard and the meme grid render dense Chinese labels; check them letter by letter before print."
+     },
+     {
+      "h": "Grids keep one character consistent.",
+      "t": "Turnaround sheets, six-panel storyboards and 3×3 meme sheets ask for the same face, outfit and light in every cell."
+     },
+     {
+      "h": "A reference image sets the style.",
+      "t": "The yarn lettering and owl crops take texture and composition from an uploaded image; upload your own when a card is marked as needing one."
+     }
+    ]
+   },
+   "faq": {
+    "title": "FAQ",
+    "items": [
+     {
+      "question": "Are all of these really Seedream 5.5 results?",
+      "answer": "Yes. Each card comes from ByteDance Seed’s Seedream 5.5 page, the BytePlus Seedream 5.5 docs, or a creator post or article that names Seedream 5.5 next to that image. In side-by-side tests only the image labelled Seedream 5.5 is used."
+     },
+     {
+      "question": "Can I use these prompts?",
+      "answer": "You can copy, edit and run any prompt. The results belong to the credited source, so check the original page or post before reusing an image."
+     },
+     {
+      "question": "What does Use do on a card?",
+      "answer": "It opens the Seedream 5.5 model page with the prompt filled in and the closest supported aspect ratio. Reference images are not attached, so upload your own for cards marked as needing one."
+     },
+     {
+      "question": "How do I get a transparent PNG?",
+      "answer": "Describe the transparent areas in the prompt and set Background to transparent with PNG output. In the API the fields are background: \"transparent\" and output_format: \"png\"."
+     },
+     {
+      "question": "Which sizes and ratios does Seedream 5.5 support?",
+      "answer": "Ten aspect ratios (1:1, 4:3, 3:4, 16:9, 9:16, 3:2, 2:3, 21:9, 2:1, 1:2) at 1K, 1.5K or 2K, with up to 10 reference images per request."
+     },
+     {
+      "question": "How do I call Seedream 5.5 from code?",
+      "answer": "Send the prompt to POST /v1/images/generations with model \"seedream-5.5\" and your APIKO key. The API docs list every field; the model page shows the current price."
+     }
+    ]
+   },
+   "links": {
+    "title": "Related",
+    "items": [
+     {
+      "label": "Seedream 5.5",
+      "href": "/models/seedream-5.5"
+     },
+     {
+      "label": "Seedream 5.0 Pro",
+      "href": "/models/doubao-seedream-5-0-pro"
+     },
+     {
+      "label": "Nano Banana 2.1 prompts",
+      "href": "/nano-banana-2-1-prompts"
+     },
+     {
+      "label": "GPT Image 2.6 prompts",
+      "href": "/gpt-image-2-6-prompts"
+     },
+     {
+      "label": "Seedream 5.5 prompts on GitHub",
+      "href": "https://github.com/tong0619453646-dev/awesome-seedream-5.5-prompts"
+     }
+    ]
+   }
+  },
+  "zh": {
+   "metaTitle": "Seedream 5.5 提示词 — {n} 条附效果图",
+   "h1": "Seedream 5.5 提示词",
+   "description": "Seedream 5.5 提示词：{n} 条附效果图的示例，来自字节跳动 Seed、BytePlus 和创作者实测，涵盖摄影、海报文字、透明底素材和角色插画。",
+   "eyebrow": "图像提示词示例 · {n}",
+   "subtitle": "本页每张效果图都由 Seedream 5.5 生成。直接复制提示词，或发送到试用台改几处细节再跑。",
+   "ctaPrimary": {
+    "label": "试用 Seedream 5.5",
+    "href": "/models/seedream-5.5"
+   },
+   "ctaSecondary": {
+    "label": "Seedream 5.5 API 文档",
+    "href": "/docs/api-manual/image-series/seedream-5.5/images"
+   },
+   "credit": "提示词和效果图归每张卡片标注的来源所有：字节跳动 Seed（Seedream 5.5 模型页）、BytePlus ModelArk（Seedream 5.5 文档），以及在帖子或文章里写明用 Seedream 5.5 生成的创作者。卡片均可跳转到原始出处。",
+   "featured": "精选 Seedream 5.5 提示词",
+   "badge": "Seedream 5.5 提示词",
+   "imageAlt": "{title} – Seedream 5.5 提示词效果图",
+   "categories": {
+    "photography": {
+     "name": "摄影",
+     "intro": "街拍、纪实、人像和手机随手拍，看光线、皮肤和材质。"
+    },
+    "text-design": {
+     "name": "文字、海报与设计",
+     "intro": "报纸、信息图、封面、包装标签和图标，字要一个不错。"
+    },
+    "transparent-assets": {
+     "name": "透明底素材与改图",
+     "intro": "原生 RGBA 输出：贴纸、商品抠图、半透明玻璃，以及只改一处、其余不动的编辑。"
+    },
+    "illustration-characters": {
+     "name": "插画与角色",
+     "intro": "绘本、角色设定、分镜、九宫格表情包和潮玩设计。"
+    }
+   },
+   "guide": {
+    "title": "Seedream 5.5 提示词怎么写",
+    "intro": "本页提示词里反复出现的四种写法。",
+    "items": [
+     {
+      "h": "按相机的思路描述画面",
+      "formula": "画幅 + 机位 + 光源 + 胶片或镜头 + 保留哪些不完美",
+      "t": "写实类提示词会写明画幅（3:4 竖幅、超广角、倾斜 25°）、光源（闪光灯、窗光、钠灯）以及想要的颗粒或欠曝。"
+     },
+     {
+      "h": "每个字都加引号",
+      "formula": "版式 + “引号里的原文” + 层级 + 不要多余文字",
+      "t": "海报、标签和信息图把每行字放进引号并说明位置，最后禁止模型自己编字。"
+     },
+     {
+      "h": "透明底：提示词写明，参数也要开",
+      "formula": "主体 + 透明背景 + 哪些部分半透明",
+      "t": "素材类提示词会说清哪里全透明、哪里半透明、哪里不透明；同时把背景参数设为 transparent。"
+     },
+     {
+      "h": "改图只改一处，并列出不许动的",
+      "formula": "把 X 改成… + A、B、C 保持不变",
+      "t": "编辑类提示词先说改什么，再列出保持不变的元素，Seedream 5.5 多轮编辑时没改的像素才能保持原样。"
+     }
+    ]
+   },
+   "tips": {
+    "title": "从示例里能看到什么",
+    "items": [
+     {
+      "h": "随手拍只要一句话。",
+      "t": "「手机随手拍，超真实，北京一个胡同，下雪了」这样一句话，不写任何相机参数，也出了很像实拍的街景。"
+     },
+     {
+      "h": "中文小字也能写清楚。",
+      "t": "蓝闪蝶信息图、分镜和九宫格表情包里有大量中文小字；用于印刷前仍要逐字核对。"
+     },
+     {
+      "h": "多格图能保持同一个角色。",
+      "t": "三视图、六格分镜和九宫格都要求每一格的脸、服装和光线一致。"
+     },
+     {
+      "h": "参考图决定风格。",
+      "t": "毛线字和雪鸮微距从上传的图里取质感和构图；标注需要参考图的卡片，请上传你自己的图。"
+     }
+    ]
+   },
+   "faq": {
+    "title": "常见问题",
+    "items": [
+     {
+      "question": "这些真的都是 Seedream 5.5 生成的吗？",
+      "answer": "是的。每张卡片都出自字节跳动 Seed 的 Seedream 5.5 页面、BytePlus 的 Seedream 5.5 文档，或在该图旁写明 Seedream 5.5 的创作者帖子与文章。多模型对比帖只取标为 Seedream 5.5 的那张。"
+     },
+     {
+      "question": "这些提示词可以用吗？",
+      "answer": "提示词可以复制、修改和运行。效果图归卡片标注的来源所有，复用图片前请先看原始页面或帖子。"
+     },
+     {
+      "question": "卡片上的「使用」是做什么的？",
+      "answer": "打开 Seedream 5.5 模型页，填好提示词，并选上最接近的可用比例。参考图不会自动带上，标注需要参考图的卡片请自己上传。"
+     },
+     {
+      "question": "怎么生成透明底 PNG？",
+      "answer": "在提示词里写清哪些区域透明，并把背景设为 transparent、输出格式选 PNG。API 里对应 background: \"transparent\" 和 output_format: \"png\"。"
+     },
+     {
+      "question": "Seedream 5.5 支持哪些尺寸和比例？",
+      "answer": "10 种比例（1:1、4:3、3:4、16:9、9:16、3:2、2:3、21:9、2:1、1:2），分辨率 1K、1.5K、2K，每次最多 10 张参考图。"
+     },
+     {
+      "question": "怎么用代码调用 Seedream 5.5？",
+      "answer": "用你的 APIKO 密钥向 POST /v1/images/generations 发送提示词，model 填 \"seedream-5.5\"。字段见 API 文档，当前价格见模型页。"
+     }
+    ]
+   },
+   "links": {
+    "title": "相关页面",
+    "items": [
+     {
+      "label": "Seedream 5.5",
+      "href": "/models/seedream-5.5"
+     },
+     {
+      "label": "Seedream 5.0 Pro",
+      "href": "/models/doubao-seedream-5-0-pro"
+     },
+     {
+      "label": "Nano Banana 2.1 提示词",
+      "href": "/nano-banana-2-1-prompts"
+     },
+     {
+      "label": "GPT Image 2.6 提示词",
+      "href": "/gpt-image-2-6-prompts"
+     },
+     {
+      "label": "GitHub 上的 Seedream 5.5 提示词合集",
+      "href": "https://github.com/tong0619453646-dev/awesome-seedream-5.5-prompts/blob/main/README_zh-CN.md"
+     }
+    ]
+   }
+  },
+  "zh-TW": {
+   "metaTitle": "Seedream 5.5 提示詞 — {n} 則附效果圖",
+   "h1": "Seedream 5.5 提示詞",
+   "description": "Seedream 5.5 提示詞：{n} 則附效果圖的範例，來自字節跳動 Seed、BytePlus 和創作者實測，涵蓋攝影、海報文字、透明底素材和角色插畫。",
+   "eyebrow": "圖像提示詞範例 · {n}",
+   "subtitle": "本頁每張效果圖都由 Seedream 5.5 生成。直接複製提示詞，或送到試用台改幾處細節再跑。",
+   "ctaPrimary": {
+    "label": "試用 Seedream 5.5",
+    "href": "/models/seedream-5.5"
+   },
+   "ctaSecondary": {
+    "label": "Seedream 5.5 API 文件",
+    "href": "/docs/api-manual/image-series/seedream-5.5/images"
+   },
+   "credit": "提示詞和效果圖歸每張卡片標註的來源所有：字節跳動 Seed（Seedream 5.5 模型頁）、BytePlus ModelArk（Seedream 5.5 文件），以及在貼文或文章裡寫明用 Seedream 5.5 生成的創作者。卡片都能連到原始出處。",
+   "featured": "精選 Seedream 5.5 提示詞",
+   "badge": "Seedream 5.5 提示詞",
+   "imageAlt": "{title} – Seedream 5.5 提示詞效果圖",
+   "categories": {
+    "photography": {
+     "name": "攝影",
+     "intro": "街拍、紀實、人像和手機隨手拍，看光線、皮膚和材質。"
+    },
+    "text-design": {
+     "name": "文字、海報與設計",
+     "intro": "報紙、資訊圖表、封面、包裝標籤和圖示，字要一個不錯。"
+    },
+    "transparent-assets": {
+     "name": "透明底素材與改圖",
+     "intro": "原生 RGBA 輸出：貼紙、商品去背、半透明玻璃，以及只改一處、其餘不動的編輯。"
+    },
+    "illustration-characters": {
+     "name": "插畫與角色",
+     "intro": "繪本、角色設定、分鏡、九宮格貼圖和公仔設計。"
+    }
+   },
+   "guide": {
+    "title": "Seedream 5.5 提示詞怎麼寫",
+    "intro": "本頁提示詞裡反覆出現的四種寫法。",
+    "items": [
+     {
+      "h": "照相機的思路描述畫面",
+      "formula": "畫幅 + 機位 + 光源 + 底片或鏡頭 + 保留哪些不完美",
+      "t": "寫實類提示詞會寫明畫幅（3:4 直幅、超廣角、傾斜 25°）、光源（閃光燈、窗光、鈉燈）以及想要的顆粒或曝光不足。"
+     },
+     {
+      "h": "每個字都加引號",
+      "formula": "版式 + 「引號裡的原文」 + 層級 + 不要多餘文字",
+      "t": "海報、標籤和資訊圖表把每行字放進引號並說明位置，最後禁止模型自己編字。"
+     },
+     {
+      "h": "透明底：提示詞寫明，參數也要開",
+      "formula": "主體 + 透明背景 + 哪些部分半透明",
+      "t": "素材類提示詞會說清哪裡全透明、哪裡半透明、哪裡不透明；同時把背景參數設為 transparent。"
+     },
+     {
+      "h": "改圖只改一處，並列出不能動的",
+      "formula": "把 X 改成… + A、B、C 保持不變",
+      "t": "編輯類提示詞先說改什麼，再列出保持不變的元素，Seedream 5.5 多輪編輯時沒改的像素才會維持原樣。"
+     }
+    ]
+   },
+   "tips": {
+    "title": "從範例裡能看到什麼",
+    "items": [
+     {
+      "h": "隨手拍只要一句話。",
+      "t": "「手機隨手拍，超真實，北京一個胡同，下雪了」這樣一句話，不寫任何相機參數，也拍出很像實拍的街景。"
+     },
+     {
+      "h": "中文小字也能寫清楚。",
+      "t": "藍閃蝶資訊圖表、分鏡和九宮格貼圖裡有大量中文小字；印刷前仍要逐字核對。"
+     },
+     {
+      "h": "多格圖能維持同一個角色。",
+      "t": "三視圖、六格分鏡和九宮格都要求每一格的臉、服裝和光線一致。"
+     },
+     {
+      "h": "參考圖決定風格。",
+      "t": "毛線字和雪鴞微距從上傳的圖裡取質感和構圖；標註需要參考圖的卡片，請上傳你自己的圖。"
+     }
+    ]
+   },
+   "faq": {
+    "title": "常見問題",
+    "items": [
+     {
+      "question": "這些真的都是 Seedream 5.5 生成的嗎？",
+      "answer": "是的。每張卡片都出自字節跳動 Seed 的 Seedream 5.5 頁面、BytePlus 的 Seedream 5.5 文件，或在該圖旁寫明 Seedream 5.5 的創作者貼文與文章。多模型比較貼只取標為 Seedream 5.5 的那張。"
+     },
+     {
+      "question": "這些提示詞可以用嗎？",
+      "answer": "提示詞可以複製、修改和執行。效果圖歸卡片標註的來源所有，重複使用圖片前請先看原始頁面或貼文。"
+     },
+     {
+      "question": "卡片上的「使用」是做什麼的？",
+      "answer": "開啟 Seedream 5.5 模型頁，填好提示詞，並選上最接近的可用比例。參考圖不會自動帶上，標註需要參考圖的卡片請自己上傳。"
+     },
+     {
+      "question": "怎麼生成透明底 PNG？",
+      "answer": "在提示詞裡寫清哪些區域透明，並把背景設為 transparent、輸出格式選 PNG。API 裡對應 background: \"transparent\" 和 output_format: \"png\"。"
+     },
+     {
+      "question": "Seedream 5.5 支援哪些尺寸和比例？",
+      "answer": "10 種比例（1:1、4:3、3:4、16:9、9:16、3:2、2:3、21:9、2:1、1:2），解析度 1K、1.5K、2K，每次最多 10 張參考圖。"
+     },
+     {
+      "question": "怎麼用程式呼叫 Seedream 5.5？",
+      "answer": "用你的 APIKO 金鑰向 POST /v1/images/generations 送出提示詞，model 填 \"seedream-5.5\"。欄位見 API 文件，目前價格見模型頁。"
+     }
+    ]
+   },
+   "links": {
+    "title": "相關頁面",
+    "items": [
+     {
+      "label": "Seedream 5.5",
+      "href": "/models/seedream-5.5"
+     },
+     {
+      "label": "Seedream 5.0 Pro",
+      "href": "/models/doubao-seedream-5-0-pro"
+     },
+     {
+      "label": "Nano Banana 2.1 提示詞",
+      "href": "/nano-banana-2-1-prompts"
+     },
+     {
+      "label": "GPT Image 2.6 提示詞",
+      "href": "/gpt-image-2-6-prompts"
+     },
+     {
+      "label": "GitHub 上的 Seedream 5.5 提示詞合集",
+      "href": "https://github.com/tong0619453646-dev/awesome-seedream-5.5-prompts/blob/main/README_zh-TW.md"
+     }
+    ]
+   }
+  },
+  "ko": {
+   "metaTitle": "Seedream 5.5 프롬프트 — 결과 이미지가 있는 예시 {n}개",
+   "h1": "Seedream 5.5 프롬프트",
+   "description": "Seedream 5.5 프롬프트: ByteDance Seed, BytePlus, 크리에이터 실사용 예시 {n}개와 결과 이미지. 사진, 포스터 글자, 투명 PNG, 캐릭터 일러스트까지.",
+   "eyebrow": "이미지 프롬프트 예시 · {n}",
+   "subtitle": "이 페이지의 모든 결과 이미지는 Seedream 5.5로 만들었습니다. 그대로 복사하거나 플레이그라운드로 보내 세부만 바꿔 보세요.",
+   "ctaPrimary": {
+    "label": "Seedream 5.5 실행",
+    "href": "/models/seedream-5.5"
+   },
+   "ctaSecondary": {
+    "label": "Seedream 5.5 API 문서",
+    "href": "/docs/api-manual/image-series/seedream-5.5/images"
+   },
+   "credit": "프롬프트와 결과물의 권리는 각 카드에 표시된 출처에 있습니다: ByteDance Seed(Seedream 5.5 모델 페이지), BytePlus ModelArk(Seedream 5.5 문서), 그리고 게시물이나 글에 Seedream 5.5로 만들었다고 밝힌 크리에이터. 카드마다 원문으로 연결됩니다.",
+   "featured": "추천 Seedream 5.5 프롬프트",
+   "badge": "Seedream 5.5 프롬프트",
+   "imageAlt": "{title} – Seedream 5.5 프롬프트 결과",
+   "categories": {
+    "photography": {
+     "name": "사진",
+     "intro": "거리, 다큐, 인물, 폰 스냅으로 빛과 피부, 재질을 봅니다."
+    },
+    "text-design": {
+     "name": "글자, 포스터, 디자인",
+     "intro": "신문, 인포그래픽, 표지, 라벨, 아이콘처럼 글자가 정확해야 하는 작업."
+    },
+    "transparent-assets": {
+     "name": "투명 PNG와 편집",
+     "intro": "네이티브 RGBA 출력: 스티커, 제품 누끼, 반투명 유리, 그리고 한 곳만 바꾸고 나머지는 그대로 두는 편집."
+    },
+    "illustration-characters": {
+     "name": "일러스트와 캐릭터",
+     "intro": "그림책, 캐릭터 시트, 스토리보드, 3×3 밈 시트, 피규어 디자인."
+    }
+   },
+   "guide": {
+    "title": "Seedream 5.5 프롬프트 쓰는 법",
+    "intro": "이 페이지의 프롬프트에 반복해서 나오는 네 가지 구조.",
+    "items": [
+     {
+      "h": "카메라처럼 묘사하기",
+      "formula": "화면비 + 앵글 + 광원 + 필름이나 렌즈 + 남길 불완전함",
+      "t": "실사 프롬프트는 화면(세로 3:4, 초광각, 25° 기울기), 빛(플래시, 창가 빛, 나트륨등), 원하는 그레인이나 노출 부족을 적습니다."
+     },
+     {
+      "h": "모든 글자에 따옴표",
+      "formula": "레이아웃 + \"따옴표 속 원문\" + 위계 + 다른 글자 금지",
+      "t": "포스터, 라벨, 인포그래픽은 줄마다 따옴표로 묶고 위치를 정한 뒤 지어낸 글자를 금지합니다."
+     },
+     {
+      "h": "투명 배경은 문장과 설정 둘 다",
+      "formula": "대상 + 투명 배경 + 반투명할 부분",
+      "t": "소스 프롬프트는 비울 곳, 반투명할 곳, 불투명할 곳을 나눠 적습니다. Background도 transparent로 설정하세요."
+     },
+     {
+      "h": "한 가지만 바꾸고 유지할 것을 나열",
+      "formula": "X를 … 로 변경 + A, B, C 그대로",
+      "t": "편집 프롬프트는 바꿀 한 가지를 말한 뒤 움직이면 안 되는 요소를 나열합니다. 그래야 여러 번 고쳐도 손대지 않은 픽셀이 그대로 남습니다."
+     }
+    ]
+   },
+   "tips": {
+    "title": "예시에서 알 수 있는 것",
+    "items": [
+     {
+      "h": "스냅은 한 줄이면 됩니다.",
+      "t": "\"폰으로 찍은, 아주 사실적인, 눈 내리는 베이징 후퉁\" 같은 한 줄로 카메라 설정 없이도 실사 같은 거리 사진이 나왔습니다."
+     },
+     {
+      "h": "작은 중국어 글자도 읽힙니다.",
+      "t": "모르포나비 인포그래픽, 스토리보드, 밈 시트에 작은 중국어 라벨이 많습니다. 인쇄 전에는 글자마다 확인하세요."
+     },
+     {
+      "h": "그리드는 한 캐릭터를 유지합니다.",
+      "t": "턴어라운드 시트, 6컷 스토리보드, 3×3 밈 시트는 칸마다 같은 얼굴, 옷, 조명을 요구합니다."
+     },
+     {
+      "h": "참고 이미지가 스타일을 정합니다.",
+      "t": "털실 글자와 올빼미 매크로는 업로드한 이미지에서 질감과 구도를 가져옵니다. 참고 이미지가 필요한 카드에는 직접 이미지를 올리세요."
+     }
+    ]
+   },
+   "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+     {
+      "question": "모두 정말 Seedream 5.5 결과인가요?",
+      "answer": "네. 카드마다 ByteDance Seed의 Seedream 5.5 페이지, BytePlus의 Seedream 5.5 문서, 또는 그 이미지 옆에 Seedream 5.5라고 적은 크리에이터 게시물이나 글에서 가져왔습니다. 모델 비교 게시물은 Seedream 5.5로 표시된 이미지만 썼습니다."
+     },
+     {
+      "question": "이 프롬프트를 써도 되나요?",
+      "answer": "프롬프트는 복사, 수정, 실행할 수 있습니다. 결과 이미지는 표시된 출처의 것이므로 재사용 전에 원문을 확인하세요."
+     },
+     {
+      "question": "카드의 사용 버튼은 무엇을 하나요?",
+      "answer": "Seedream 5.5 모델 페이지를 열고 프롬프트와 가장 가까운 지원 비율을 채워 둡니다. 참고 이미지는 붙지 않으니, 필요하다고 표시된 카드는 직접 올리세요."
+     },
+     {
+      "question": "투명 PNG는 어떻게 만드나요?",
+      "answer": "프롬프트에 투명할 영역을 적고 Background를 transparent, 출력 형식을 PNG로 설정하세요. API에서는 background: \"transparent\", output_format: \"png\"입니다."
+     },
+     {
+      "question": "Seedream 5.5가 지원하는 크기와 비율은?",
+      "answer": "비율 10가지(1:1, 4:3, 3:4, 16:9, 9:16, 3:2, 2:3, 21:9, 2:1, 1:2), 해상도 1K, 1.5K, 2K, 요청당 참고 이미지 최대 10장입니다."
+     },
+     {
+      "question": "코드에서 Seedream 5.5를 호출하려면?",
+      "answer": "APIKO API 키로 POST /v1/images/generations에 프롬프트를 보내고 model을 \"seedream-5.5\"로 지정합니다. 필드는 API 문서에, 현재 가격은 모델 페이지에 있습니다."
+     }
+    ]
+   },
+   "links": {
+    "title": "관련 페이지",
+    "items": [
+     {
+      "label": "Seedream 5.5",
+      "href": "/models/seedream-5.5"
+     },
+     {
+      "label": "Seedream 5.0 Pro",
+      "href": "/models/doubao-seedream-5-0-pro"
+     },
+     {
+      "label": "Nano Banana 2.1 프롬프트",
+      "href": "/nano-banana-2-1-prompts"
+     },
+     {
+      "label": "GPT Image 2.6 프롬프트",
+      "href": "/gpt-image-2-6-prompts"
+     },
+     {
+      "label": "GitHub의 Seedream 5.5 프롬프트 모음",
+      "href": "https://github.com/tong0619453646-dev/awesome-seedream-5.5-prompts/blob/main/README_ko.md"
+     }
+    ]
+   }
+  }
+ },
+ "cards": [
+  {
+   "id": "photography-01",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-01.webp"
+    ],
+    "poster": "photography-01-sm.webp",
+    "width": 1600,
+    "height": 1060
+   },
+   "ratio": "3:2",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "A white cat sits elegantly among bottles and glasses in a bar at night. Shoot from a low angle with a tilted composition, using flash, Fujifilm Provia colors and film grain. Capture dappled light, bright highlights and crisp detail for a vintage photographic feel.",
+   "complete": true,
+   "prompt": "A white cat sits elegantly among bottles and glasses in a bar at night. Shoot from a low angle with a tilted composition, using flash, Fujifilm Provia colors and film grain. Capture dappled light, bright highlights and crisp detail for a vintage photographic feel.",
+   "text": {
+    "en": {
+     "title": "White cat in a night bar, flash and Provia film",
+     "tags": [
+      "Animal",
+      "Film look"
+     ]
+    },
+    "zh": {
+     "title": "夜晚酒吧里的白猫，闪光灯加 Provia 胶片色",
+     "tags": [
+      "动物",
+      "胶片感"
+     ]
+    },
+    "zh-TW": {
+     "title": "夜晚酒吧裡的白貓，閃光燈加 Provia 底片色",
+     "tags": [
+      "動物",
+      "底片感"
+     ]
+    },
+    "ko": {
+     "title": "밤 바의 흰 고양이, 플래시와 프로비아 필름",
+     "tags": [
+      "동물",
+      "필름 룩"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-02",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-02.webp"
+    ],
+    "poster": "photography-02-sm.webp",
+    "width": 1600,
+    "height": 900
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "A warm documentary photograph of a young father reclining on a dark purple-gray fabric sofa, holding a sleeping baby. Cream knitted cushions and a mustard-yellow blanket show soft, tactile fabric textures. Warm golden daylight enters through a window on the right. Relaxed poses",
+   "complete": false,
+   "prompt": "A warm documentary photograph of a young father reclining on a dark purple-gray fabric sofa, holding a sleeping baby. Cream knitted cushions and a mustard-yellow blanket show soft, tactile fabric textures. Warm golden daylight enters through a window on the right. Relaxed poses, natural skin tones, gentle shadows and film grain capture a quiet, intimate afternoon.",
+   "text": {
+    "en": {
+     "title": "Father napping with his baby in window light",
+     "tags": [
+      "Portrait",
+      "Photography"
+     ]
+    },
+    "zh": {
+     "title": "窗光下抱着婴儿小睡的父亲",
+     "tags": [
+      "人像",
+      "摄影"
+     ]
+    },
+    "zh-TW": {
+     "title": "窗光下抱著嬰兒小睡的父親",
+     "tags": [
+      "人像",
+      "攝影"
+     ]
+    },
+    "ko": {
+     "title": "창가 빛 속 아기를 안고 쉬는 아빠",
+     "tags": [
+      "인물",
+      "사진"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-03",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-03.webp"
+    ],
+    "poster": "photography-03-sm.webp",
+    "width": 960,
+    "height": 1280
+   },
+   "ratio": "3:4",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "A vertical 3:4 street photograph of a southern European corner. A lemon-yellow limewashed wall, an old deep-purple wooden door and hanging royal-purple linen form a bold geometric composition. Golden flowers fill a weathered metal bucket at the lower right. Strong afternoon",
+   "complete": false,
+   "prompt": "A vertical 3:4 street photograph of a southern European corner. A lemon-yellow limewashed wall, an old deep-purple wooden door and hanging royal-purple linen form a bold geometric composition. Golden flowers fill a weathered metal bucket at the lower right. Strong afternoon sunlight casts crisp shadows, revealing textured plaster, fabric folds, rust and layered petals in vivid complementary purple and yellow.",
+   "text": {
+    "en": {
+     "title": "Lemon wall and purple door on a southern European corner",
+     "tags": [
+      "Street",
+      "Photography"
+     ]
+    },
+    "zh": {
+     "title": "南欧街角的柠檬黄墙与紫色木门",
+     "tags": [
+      "街拍",
+      "摄影"
+     ]
+    },
+    "zh-TW": {
+     "title": "南歐街角的檸檬黃牆與紫色木門",
+     "tags": [
+      "街拍",
+      "攝影"
+     ]
+    },
+    "ko": {
+     "title": "남유럽 골목의 레몬색 벽과 보라색 문",
+     "tags": [
+      "거리",
+      "사진"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-04",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-04.webp"
+    ],
+    "poster": "photography-04-sm.webp",
+    "width": 1600,
+    "height": 904
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "A candid horizontal street photograph of a long-haired woman in a burgundy top and light brown jacket looking down at her phone. Strong wind sweeps her hair across her sunglasses and face. The entire frame tilts about 25 degrees clockwise, with consistent perspective across the",
+   "complete": false,
+   "prompt": "A candid horizontal street photograph of a long-haired woman in a burgundy top and light brown jacket looking down at her phone. Strong wind sweeps her hair across her sunglasses and face. The entire frame tilts about 25 degrees clockwise, with consistent perspective across the figure, buildings, lamppost and pavement. Natural clothing folds, hurried framing and asymmetric cropping create an unposed everyday moment.",
+   "text": {
+    "en": {
+     "title": "Windswept woman in a frame tilted 25 degrees",
+     "tags": [
+      "Street",
+      "Portrait"
+     ]
+    },
+    "zh": {
+     "title": "画面倾斜 25 度的大风街头随拍",
+     "tags": [
+      "街拍",
+      "人像"
+     ]
+    },
+    "zh-TW": {
+     "title": "畫面傾斜 25 度的大風街頭隨拍",
+     "tags": [
+      "街拍",
+      "人像"
+     ]
+    },
+    "ko": {
+     "title": "25도 기울어진 바람 부는 거리 스냅",
+     "tags": [
+      "거리",
+      "인물"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-05",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-05.webp"
+    ],
+    "poster": "photography-05-sm.webp",
+    "width": 1600,
+    "height": 904
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "A candid horizontal snapshot inside a neighborhood bistro in Europe on a summer evening. Two older diners eat naturally at a table covered with cream linen, unaware of the camera. Glasses, cutlery, breadcrumbs and worn wooden furniture show everyday use. Warm pendant lights mix",
+   "complete": false,
+   "prompt": "A candid horizontal snapshot inside a neighborhood bistro in Europe on a summer evening. Two older diners eat naturally at a table covered with cream linen, unaware of the camera. Glasses, cutlery, breadcrumbs and worn wooden furniture show everyday use. Warm pendant lights mix with traces of cool evening light. Slight underexposure, subtle high-ISO grain and foreground occlusion create an intimate, spontaneous atmosphere.",
+   "text": {
+    "en": {
+     "title": "Older diners in a European bistro on a summer evening",
+     "tags": [
+      "Photography",
+      "Film look"
+     ]
+    },
+    "zh": {
+     "title": "夏夜欧洲小酒馆里用餐的老人",
+     "tags": [
+      "摄影",
+      "胶片感"
+     ]
+    },
+    "zh-TW": {
+     "title": "夏夜歐洲小酒館裡用餐的長者",
+     "tags": [
+      "攝影",
+      "底片感"
+     ]
+    },
+    "ko": {
+     "title": "여름 저녁 유럽 비스트로의 노부부",
+     "tags": [
+      "사진",
+      "필름 룩"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-06",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-06.webp"
+    ],
+    "poster": "photography-06-sm.webp",
+    "width": 1200,
+    "height": 1600
+   },
+   "ratio": "3:4",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "A vertical 3:4 street photograph after rain, taken from a low angle looking down at wet paving stones and irregular puddles. Reflections of an old building’s golden carvings, window frames and colonnades are fragmented by exposed stones, puddle edges and ripples. Warm golden",
+   "complete": false,
+   "prompt": "A vertical 3:4 street photograph after rain, taken from a low angle looking down at wet paving stones and irregular puddles. Reflections of an old building’s golden carvings, window frames and colonnades are fragmented by exposed stones, puddle edges and ripples. Warm golden light contrasts with deep-blue reflections, preserving worn joints and wet surface textures. No full building, people or vehicles appear.",
+   "text": {
+    "en": {
+     "title": "Golden building reflected in rain puddles",
+     "tags": [
+      "Street",
+      "Photography"
+     ]
+    },
+    "zh": {
+     "title": "雨后水洼里的金色建筑倒影",
+     "tags": [
+      "街拍",
+      "摄影"
+     ]
+    },
+    "zh-TW": {
+     "title": "雨後水窪裡的金色建築倒影",
+     "tags": [
+      "街拍",
+      "攝影"
+     ]
+    },
+    "ko": {
+     "title": "빗물 웅덩이에 비친 금빛 건물",
+     "tags": [
+      "거리",
+      "사진"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-07",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-07.webp"
+    ],
+    "poster": "photography-07-sm.webp",
+    "width": 1600,
+    "height": 1060
+   },
+   "ratio": "3:2",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "Photograph a busy modern city subway platform filled with Asian commuters walking briskly in orderly flows. Use central perspective, with the platform, yellow safety lines and overhead lights receding into the distance. Combine motion blur, soft diffuse light and a subtle glow",
+   "complete": false,
+   "prompt": "Photograph a busy modern city subway platform filled with Asian commuters walking briskly in orderly flows. Use central perspective, with the platform, yellow safety lines and overhead lights receding into the distance. Combine motion blur, soft diffuse light and a subtle glow while retaining highlight and shadow detail to convey the energy of urban life.",
+   "text": {
+    "en": {
+     "title": "Commuters with motion blur on a subway platform",
+     "tags": [
+      "Street",
+      "Photography"
+     ]
+    },
+    "zh": {
+     "title": "地铁站台上动态模糊的通勤人群",
+     "tags": [
+      "街拍",
+      "摄影"
+     ]
+    },
+    "zh-TW": {
+     "title": "地鐵月台上動態模糊的通勤人潮",
+     "tags": [
+      "街拍",
+      "攝影"
+     ]
+    },
+    "ko": {
+     "title": "지하철 승강장의 모션 블러 인파",
+     "tags": [
+      "거리",
+      "사진"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-08",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-08.webp"
+    ],
+    "poster": "photography-08-sm.webp",
+    "width": 1600,
+    "height": 904
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "A horizontal ultra-wide-angle photograph of a curious gray-brown donkey peering through a vertical gap in a weathered wooden fence. Its broad muzzle nearly touches the lens, while its eyes and long ears recede in exaggerated close-up perspective. Focus on the muzzle’s fine hair",
+   "complete": false,
+   "prompt": "A horizontal ultra-wide-angle photograph of a curious gray-brown donkey peering through a vertical gap in a weathered wooden fence. Its broad muzzle nearly touches the lens, while its eyes and long ears recede in exaggerated close-up perspective. Focus on the muzzle’s fine hair, whiskers and skin texture, with softly blurred fence boards, blue sky and grass beyond. Natural daylight creates a playful candid moment.",
+   "text": {
+    "en": {
+     "title": "Donkey peering through a fence gap, ultra-wide",
+     "tags": [
+      "Animal",
+      "Photography"
+     ]
+    },
+    "zh": {
+     "title": "超广角：从栅栏缝探头的驴",
+     "tags": [
+      "动物",
+      "摄影"
+     ]
+    },
+    "zh-TW": {
+     "title": "超廣角：從柵欄縫探頭的驢",
+     "tags": [
+      "動物",
+      "攝影"
+     ]
+    },
+    "ko": {
+     "title": "초광각: 울타리 틈으로 보는 당나귀",
+     "tags": [
+      "동물",
+      "사진"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-09",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-09.webp"
+    ],
+    "poster": "photography-09-sm.webp",
+    "width": 1108,
+    "height": 1600
+   },
+   "ratio": "2:3",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "A hand lifts a string of water droplets from a miniature swimming pool. The droplets spell “seedream” vertically. Surreal summer photography with vivid colors and a film-like texture.",
+   "complete": true,
+   "prompt": "A hand lifts a string of water droplets from a miniature swimming pool. The droplets spell “seedream” vertically. Surreal summer photography with vivid colors and a film-like texture.",
+   "text": {
+    "en": {
+     "title": "Water droplets spelling \"seedream\" above a pool",
+     "tags": [
+      "Surreal",
+      "In-image text"
+     ]
+    },
+    "zh": {
+     "title": "从泳池里提起拼成 seedream 的水珠",
+     "tags": [
+      "超现实",
+      "图中文字"
+     ]
+    },
+    "zh-TW": {
+     "title": "從泳池裡提起拼成 seedream 的水珠",
+     "tags": [
+      "超現實",
+      "圖中文字"
+     ]
+    },
+    "ko": {
+     "title": "수영장에서 seedream 글자를 이룬 물방울",
+     "tags": [
+      "초현실",
+      "이미지 속 글자"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-10",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-10.webp"
+    ],
+    "poster": "photography-10-sm.webp",
+    "width": 790,
+    "height": 988
+   },
+   "ratio": "4:5",
+   "author": {
+    "name": "MayorKingAI",
+    "url": "https://x.com/MayorKingAI"
+   },
+   "sourceUrl": "https://x.com/MayorKingAI/status/2120198834508955990",
+   "needsReference": false,
+   "preview": "An ultra-realistic high-fashion editorial photograph of a striking 28-year-old Japanese man with sharp facial features, a defined jawline, slightly messy medium-length black hair and narrow rectangular black sunglasses, sitting confidently on a rooftop terrace while playing",
+   "complete": false,
+   "prompt": "An ultra-realistic high-fashion editorial photograph of a striking 28-year-old Japanese man with sharp facial features, a defined jawline, slightly messy medium-length black hair and narrow rectangular black sunglasses, sitting confidently on a rooftop terrace while playing chess.\n\nHe wears an oversized luxurious emerald-green faux-fur coat over a black silk shirt, tailored black trousers and a subtle silver chain necklace. His expression is calm, confident and slightly intimidating, looking directly toward the camera.\n\nCamera composition: An extreme low-angle shot taken from the very edge of a chessboard, with the camera positioned only a few centimeters above the board's surface. The black-and-white chessboard dominates the entire bottom third of the frame, its squares appearing exceptionally large in the foreground and rapidly shrinking toward the seated man.\n\nThe man is centered in the composition, visible from approximately the knees upward, leaning slightly forward. His right arm extends directly toward the camera, with his hand dramatically enlarged by perspective. He is gripping the top of a polished ivory wooden king chess piece between his thumb and index finger, moving it toward an empty square near the camera. The king is dramatically oversized in the immediate foreground due to the wide-angle perspective, while the remaining chess pieces appear progressively smaller toward the background.\n\nHis other hand rests naturally near his knee. The chess pieces are physically accurate and positioned naturally on the board, with realistic contact shadows and detailed polished wooden surfaces.\n\nEnvironment: An open urban rooftop with subtle concrete architectural details, low surrounding rooftops and an enormous vivid cyan-blue sky with a few soft, scattered white clouds. The bright sky occupies the upper half of the composition, creating strong visual contrast against the emerald-green coat.\n\nPhotography: Shot on a Sony A1 II with a 20mm wide-angle lens, camera placed at chessboard level, f/8, ISO 100, 1/1000s. Deep environmental perspective, exaggerated foreground scale, realistic optical distortion, crisp textures across the chessboard and subject. Bright natural midday sunlight, accurate skin tones, natural facial asymmetry, individual hair strands, detailed fabric and fur fibers, subtle imperfections and physically realistic shadows.\n\nAuthentic luxury fashion campaign photography, bold editorial framing, natural photographic color grading, exceptionally realistic skin texture, no artificial skin smoothing, no CGI appearance, no illustration, no plastic textures, no excessive cinematic effects.",
+   "text": {
+    "en": {
+     "title": "Low-angle rooftop chess shot with an oversized king",
+     "tags": [
+      "Fashion",
+      "Portrait"
+     ]
+    },
+    "zh": {
+     "title": "天台下棋超低机位，前景巨大的国王棋子",
+     "tags": [
+      "时尚",
+      "人像"
+     ]
+    },
+    "zh-TW": {
+     "title": "天台下棋超低機位，前景巨大的國王棋子",
+     "tags": [
+      "時尚",
+      "人像"
+     ]
+    },
+    "ko": {
+     "title": "옥상 체스 초저각, 거대한 킹 말",
+     "tags": [
+      "패션",
+      "인물"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-11",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-11.webp"
+    ],
+    "poster": "photography-11-sm.webp",
+    "width": 1600,
+    "height": 900
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "Dheepanratnam",
+    "url": "https://x.com/Dheepanratnam"
+   },
+   "sourceUrl": "https://x.com/Dheepanratnam/status/2119767938173387065",
+   "needsReference": false,
+   "preview": "Photorealistic street scene in a multicultural London neighbourhood at night. A shopfront sign reads exactly “OPEN LATE” in English, with a smaller hanging sign reading exactly “欢迎光临” in simplified Chinese and another small poster reading exactly “Bienvenue” in French. Realistic",
+   "complete": false,
+   "prompt": "Photorealistic street scene in a multicultural London neighbourhood at night. A shopfront sign reads exactly “OPEN LATE” in English, with a smaller hanging sign reading exactly “欢迎光临” in simplified Chinese and another small poster reading exactly “Bienvenue” in French. Realistic neon glow, legible typography, correct character shapes, no duplicated letters, no warped glyphs, natural perspective on the signs, cinematic night photography, wet pavement reflections, no extra invented text.",
+   "text": {
+    "en": {
+     "title": "London shopfront at night with signs in three languages",
+     "tags": [
+      "Multilingual",
+      "Night"
+     ]
+    },
+    "zh": {
+     "title": "伦敦夜晚店面上的三种语言招牌",
+     "tags": [
+      "多语言",
+      "夜景"
+     ]
+    },
+    "zh-TW": {
+     "title": "倫敦夜晚店面上的三種語言招牌",
+     "tags": [
+      "多語言",
+      "夜景"
+     ]
+    },
+    "ko": {
+     "title": "세 언어 간판이 있는 런던 밤거리 가게",
+     "tags": [
+      "다국어",
+      "야경"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-12",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-12.webp"
+    ],
+    "poster": "photography-12-sm.webp",
+    "width": 1024,
+    "height": 1024
+   },
+   "ratio": "1:1",
+   "author": {
+    "name": "Yuziyyaa",
+    "url": "https://x.com/Yuziyyaa"
+   },
+   "sourceUrl": "https://x.com/Yuziyyaa/status/2119799602580955179",
+   "needsReference": false,
+   "preview": "电影感极致特写，年轻女性的一只眼睛占据画面中心，下眼睑挂着一颗即将落下的泪珠，泪珠有真实折射、内部高光和边缘表面张力。虹膜呈深棕色纤维纹理，瞳孔因光线略微放大，睫毛湿润粘连且根根可辨。几缕深色湿润发丝从上方垂落横过眼睛，发丝边缘被逆光打透呈金边，每根有独立厚度与细微毛躁。皮肤可见毛孔、绒毛与自然油光差异。画面右下角有一小片透明玻璃片，玻璃上印有清晰小字“Seedream 5.5”和中文“百轮测试”，字体无崩坏。光线为戏剧性侧光+冷暖对比（面部偏暖，阴影偏冷蓝），泪珠与玻璃同时反射高光。85mm微距，浅景深，背景深蓝黑色调，超写实摄影",
+   "complete": false,
+   "prompt": "电影感极致特写，年轻女性的一只眼睛占据画面中心，下眼睑挂着一颗即将落下的泪珠，泪珠有真实折射、内部高光和边缘表面张力。虹膜呈深棕色纤维纹理，瞳孔因光线略微放大，睫毛湿润粘连且根根可辨。几缕深色湿润发丝从上方垂落横过眼睛，发丝边缘被逆光打透呈金边，每根有独立厚度与细微毛躁。皮肤可见毛孔、绒毛与自然油光差异。画面右下角有一小片透明玻璃片，玻璃上印有清晰小字“Seedream 5.5”和中文“百轮测试”，字体无崩坏。光线为戏剧性侧光+冷暖对比（面部偏暖，阴影偏冷蓝），泪珠与玻璃同时反射高光。85mm微距，浅景深，背景深蓝黑色调，超写实摄影，皮肤与液体有真实物理质感，无CG感。",
+   "text": {
+    "en": {
+     "title": "Macro of one eye with a tear and tiny glass text",
+     "tags": [
+      "Macro",
+      "In-image text"
+     ]
+    },
+    "zh": {
+     "title": "含泪眼睛的微距特写与玻璃上的小字",
+     "tags": [
+      "微距",
+      "图中文字"
+     ]
+    },
+    "zh-TW": {
+     "title": "含淚眼睛的微距特寫與玻璃上的小字",
+     "tags": [
+      "微距",
+      "圖中文字"
+     ]
+    },
+    "ko": {
+     "title": "눈물 맺힌 눈 매크로와 유리 위 작은 글자",
+     "tags": [
+      "매크로",
+      "이미지 속 글자"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-13",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-13.webp"
+    ],
+    "poster": "photography-13-sm.webp",
+    "width": 1600,
+    "height": 900
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "ahmetmertugrul",
+    "url": "https://x.com/ahmetmertugrul"
+   },
+   "sourceUrl": "https://x.com/ahmetmertugrul/status/2119922071916757233",
+   "needsReference": false,
+   "preview": "Candid documentary photo, 85mm lens, f/2. An elderly fisherman in his seventies mending a tangled orange net on a wooden dock at blue hour. Mixed lighting: cold blue ambient sky from the left, a single warm sodium-vapor streetlamp from behind creating a rim light on his white",
+   "complete": false,
+   "prompt": "Candid documentary photo, 85mm lens, f/2. An elderly fisherman in his seventies mending a tangled orange net on a wooden dock at blue hour. Mixed lighting: cold blue ambient sky from the left, a single warm sodium-vapor streetlamp from behind creating a rim light on his white stubble and the loose net fibers. Visible pores, deep wrinkles, sun spots, slightly chapped lips, a small healed scar on his knuckle. Wet wooden planks with puddles reflecting the lamp. Light drizzle visible only in the backlight. No beauty retouching, natural film grain, slight underexposure in the shadows.",
+   "text": {
+    "en": {
+     "title": "Old fisherman mending a net at blue hour",
+     "tags": [
+      "Portrait",
+      "Cinematic"
+     ]
+    },
+    "zh": {
+     "title": "蓝调时刻补渔网的老渔夫",
+     "tags": [
+      "人像",
+      "电影感"
+     ]
+    },
+    "zh-TW": {
+     "title": "藍調時刻補漁網的老漁夫",
+     "tags": [
+      "人像",
+      "電影感"
+     ]
+    },
+    "ko": {
+     "title": "블루아워에 그물을 깁는 노어부",
+     "tags": [
+      "인물",
+      "시네마틱"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-14",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-14.webp"
+    ],
+    "poster": "photography-14-sm.webp",
+    "width": 1066,
+    "height": 1600
+   },
+   "ratio": "2:3",
+   "author": {
+    "name": "ZaraIrahh",
+    "url": "https://x.com/ZaraIrahh"
+   },
+   "sourceUrl": "https://x.com/ZaraIrahh/status/2120161811571912709",
+   "needsReference": false,
+   "preview": "Photorealistic fashion editorial with the atmosphere of a winter morning in the early 1990s, in a Soviet-era residential neighborhood. A beautiful adult brunette woman with delicate facial features stands beside the open folding doors of an aged cream-and-red Soviet LiAZ-677",
+   "complete": false,
+   "prompt": "Photorealistic fashion editorial with the atmosphere of a winter morning in the early 1990s, in a Soviet-era residential neighborhood. A beautiful adult brunette woman with delicate facial features stands beside the open folding doors of an aged cream-and-red Soviet LiAZ-677 city bus. She holds a small bouquet of dried wildflowers wrapped in vintage brown kraft paper, gently gripping it with both hands in front of her thighs.\n\nShe wears an oversized charcoal wool coat, a soft ivory knitted scarf, a dark burgundy ribbed sweater, straight dark trousers and black leather winter boots. Loose dark brown hair falls naturally around her face, a few strands lifted by the freezing wind. Flushed cheeks, minimal makeup, thoughtful expression, looking slightly past the camera, shoulders gently raised against the cold.\n\nSnow-covered pavement, compacted gray snow beside the bus wheels, frosted windows with condensation, faded red paint, weathered metal. Blurred Soviet apartment blocks and a modest bus shelter in the distance. Fine snowflakes in the air, visible breath. The delicate dried flowers add a subtle warm color accent against the muted winter surroundings.\n\nThree-quarter portrait framed from the knees up, eye-level camera, woman placed off-center, the bus filling one side of the composition. Cold overcast daylight with direct on-camera flash, crisp face, deep background, subtle analog film grain, restrained colors, candid 1990s street photography combined with luxury fashion editorial. Real skin texture, tactile wool, believable hands and bouquet construction, shot on a 50mm lens --ar 3:4 --style raw --s 150 --no modern cars smartphones logos text watermark",
+   "text": {
+    "en": {
+     "title": "Winter editorial beside a 1990s Soviet bus",
+     "tags": [
+      "Fashion",
+      "Film look"
+     ]
+    },
+    "zh": {
+     "title": "90 年代苏联老公交车旁的冬日时装照",
+     "tags": [
+      "时尚",
+      "胶片感"
+     ]
+    },
+    "zh-TW": {
+     "title": "90 年代蘇聯老公車旁的冬日時裝照",
+     "tags": [
+      "時尚",
+      "底片感"
+     ]
+    },
+    "ko": {
+     "title": "90년대 소련 버스 옆 겨울 화보",
+     "tags": [
+      "패션",
+      "필름 룩"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-15",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-15.webp"
+    ],
+    "poster": "photography-15-sm.webp",
+    "width": 1200,
+    "height": 1600
+   },
+   "ratio": "3:4",
+   "author": {
+    "name": "johnAGI168",
+    "url": "https://x.com/johnAGI168"
+   },
+   "sourceUrl": "https://x.com/johnAGI168/status/2120363733713039575",
+   "needsReference": false,
+   "preview": "A cinematic vertical 35mm photograph captured at eye level — an evocative over-the-shoulder medium portrait of a stunning young East Asian woman looking back toward the camera while riding a dimly lit subway escalator. She possesses delicate, melancholic beauty with expressive",
+   "complete": false,
+   "prompt": "A cinematic vertical 35mm photograph captured at eye level — an evocative over-the-shoulder medium portrait of a stunning young East Asian woman looking back toward the camera while riding a dimly lit subway escalator.\n\nShe possesses delicate, melancholic beauty with expressive dark eyes and natural lips, casting an enigmatic glance over her shoulder. Her long, layered jet-black hair blows freely in the underground draft, with loose strands sweeping across her cheeks and face with realistic kinetic motion. She wears a minimalist black spaghetti-strap slip top that reveals elegant collarbones and bare shoulders.\n\nThe setting is a vintage metro tunnel with escalator railings receding into deep perspective. Overhead linear fluorescent lights glow with a soft amber-green halation bloom, while the distant terminal melts into colorful circular bokeh of red, cyan, and warm white, creating a moody, nostalgic urban atmosphere reminiscent of 90s cinema.\n\nShot on a fast 50mm vintage prime at f/1.4 with soft diffusion filtration and authentic 35mm film grain in an M1 cinematic narrative register. Genuine human skin with fine pores, biological warmth, realistic wind dynamics on hair, and rich color-negative film roll-off — cinematic frame, strictly no CGI, no 3D render, no plastic skin, no artificial smoothing.",
+   "text": {
+    "en": {
+     "title": "Over-the-shoulder glance on a subway escalator",
+     "tags": [
+      "Portrait",
+      "Cinematic"
+     ]
+    },
+    "zh": {
+     "title": "地铁扶梯上回眸的电影感人像",
+     "tags": [
+      "人像",
+      "电影感"
+     ]
+    },
+    "zh-TW": {
+     "title": "地鐵手扶梯上回眸的電影感人像",
+     "tags": [
+      "人像",
+      "電影感"
+     ]
+    },
+    "ko": {
+     "title": "지하철 에스컬레이터에서 돌아보는 인물",
+     "tags": [
+      "인물",
+      "시네마틱"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-16",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-16.webp"
+    ],
+    "poster": "photography-16-sm.webp",
+    "width": 1200,
+    "height": 794
+   },
+   "ratio": "3:2",
+   "author": {
+    "name": "vista8",
+    "url": "https://x.com/vista8"
+   },
+   "sourceUrl": "https://x.com/vista8/status/2120085580264714732",
+   "needsReference": false,
+   "preview": "手机随手拍，超真实，北京一个胡同，下雪了",
+   "complete": true,
+   "prompt": "手机随手拍，超真实，北京一个胡同，下雪了",
+   "text": {
+    "en": {
+     "title": "Phone snapshot of a Beijing hutong in snow",
+     "tags": [
+      "Phone snapshot",
+      "Snow"
+     ]
+    },
+    "zh": {
+     "title": "手机随手拍：下雪的北京胡同",
+     "tags": [
+      "手机随手拍",
+      "雪景"
+     ]
+    },
+    "zh-TW": {
+     "title": "手機隨手拍：下雪的北京胡同",
+     "tags": [
+      "手機隨手拍",
+      "雪景"
+     ]
+    },
+    "ko": {
+     "title": "폰 스냅: 눈 내린 베이징 후퉁",
+     "tags": [
+      "폰 스냅",
+      "눈 풍경"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-17",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-17.webp"
+    ],
+    "poster": "photography-17-sm.webp",
+    "width": 1200,
+    "height": 794
+   },
+   "ratio": "3:2",
+   "author": {
+    "name": "vista8",
+    "url": "https://x.com/vista8"
+   },
+   "sourceUrl": "https://x.com/vista8/status/2120085580264714732",
+   "needsReference": false,
+   "preview": "手机随手拍，北京五环外，环卫工人在扫雪，超真实",
+   "complete": true,
+   "prompt": "手机随手拍，北京五环外，环卫工人在扫雪，超真实",
+   "text": {
+    "en": {
+     "title": "Sanitation worker sweeping snow outside Beijing",
+     "tags": [
+      "Phone snapshot",
+      "Snow"
+     ]
+    },
+    "zh": {
+     "title": "手机随手拍：五环外扫雪的环卫工人",
+     "tags": [
+      "手机随手拍",
+      "雪景"
+     ]
+    },
+    "zh-TW": {
+     "title": "手機隨手拍：五環外掃雪的清潔工",
+     "tags": [
+      "手機隨手拍",
+      "雪景"
+     ]
+    },
+    "ko": {
+     "title": "폰 스냅: 베이징 외곽의 제설 미화원",
+     "tags": [
+      "폰 스냅",
+      "눈 풍경"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-18",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-18.webp"
+    ],
+    "poster": "photography-18-sm.webp",
+    "width": 1200,
+    "height": 794
+   },
+   "ratio": "3:2",
+   "author": {
+    "name": "vista8",
+    "url": "https://x.com/vista8"
+   },
+   "sourceUrl": "https://x.com/vista8/status/2120085580264714732",
+   "needsReference": false,
+   "preview": "手机随手拍，超真实，天津海河边，下雪了",
+   "complete": true,
+   "prompt": "手机随手拍，超真实，天津海河边，下雪了",
+   "text": {
+    "en": {
+     "title": "Snow on the Haihe River in Tianjin",
+     "tags": [
+      "Phone snapshot",
+      "Snow"
+     ]
+    },
+    "zh": {
+     "title": "手机随手拍：下雪的天津海河边",
+     "tags": [
+      "手机随手拍",
+      "雪景"
+     ]
+    },
+    "zh-TW": {
+     "title": "手機隨手拍：下雪的天津海河邊",
+     "tags": [
+      "手機隨手拍",
+      "雪景"
+     ]
+    },
+    "ko": {
+     "title": "폰 스냅: 눈 내린 톈진 하이허 강변",
+     "tags": [
+      "폰 스냅",
+      "눈 풍경"
+     ]
+    }
+   }
+  },
+  {
+   "id": "photography-19",
+   "category": "photography",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "photography-19.webp"
+    ],
+    "poster": "photography-19-sm.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   "ratio": "1:1",
+   "author": {
+    "name": "oran_ge",
+    "url": "https://x.com/oran_ge"
+   },
+   "sourceUrl": "https://x.com/oran_ge/status/2120037929615503812",
+   "needsReference": false,
+   "preview": "2×3 六格，同一机位。一块方冰里冻着一朵小雏菊，放在白瓷盘上，背景深灰蓝。六格依次是 0、5、10、20、40、60 分钟：冰从完整方块，到边缘化开、体积变薄，最后只剩一摊水，雏菊一直在原来的位置。每格底部标分钟数。冷调柔光，冰要通透，能看见花被冻在里面的折射。",
+   "complete": true,
+   "prompt": "2×3 六格，同一机位。一块方冰里冻着一朵小雏菊，放在白瓷盘上，背景深灰蓝。六格依次是 0、5、10、20、40、60 分钟：冰从完整方块，到边缘化开、体积变薄，最后只剩一摊水，雏菊一直在原来的位置。每格底部标分钟数。冷调柔光，冰要通透，能看见花被冻在里面的折射。",
+   "text": {
+    "en": {
+     "title": "Daisy in a melting ice cube over 60 minutes",
+     "tags": [
+      "Grid layout",
+      "Macro"
+     ]
+    },
+    "zh": {
+     "title": "冰块里的雏菊融化 60 分钟六格图",
+     "tags": [
+      "多格拼图",
+      "微距"
+     ]
+    },
+    "zh-TW": {
+     "title": "冰塊裡的雛菊融化 60 分鐘六格圖",
+     "tags": [
+      "多格拼圖",
+      "微距"
+     ]
+    },
+    "ko": {
+     "title": "60분간 녹는 얼음 속 데이지 6컷",
+     "tags": [
+      "그리드",
+      "매크로"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-01",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-01.webp"
+    ],
+    "poster": "text-design-01-sm.webp",
+    "width": 1600,
+    "height": 1060
+   },
+   "ratio": "3:2",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "Design a landscape literary newspaper with the masthead “THE SHAKESPEARE CHRONICLE” and the headline “WILLIAM SHAKESPEARE”. On warm ivory paper, illustrate Shakespeare and the Globe Theatre in black engraving, with muted blue clouds and waves weaving through the page. Arrange",
+   "complete": false,
+   "prompt": "Design a landscape literary newspaper with the masthead “THE SHAKESPEARE CHRONICLE” and the headline “WILLIAM SHAKESPEARE”. On warm ivory paper, illustrate Shakespeare and the Globe Theatre in black engraving, with muted blue clouds and waves weaving through the page. Arrange seven short articles in English around the illustrations, using bold serif headings and legible small type.",
+   "text": {
+    "en": {
+     "title": "Newspaper page \"The Shakespeare Chronicle\"",
+     "tags": [
+      "Editorial",
+      "In-image text"
+     ]
+    },
+    "zh": {
+     "title": "英文文学特刊《莎士比亚纪事报》",
+     "tags": [
+      "版式设计",
+      "图中文字"
+     ]
+    },
+    "zh-TW": {
+     "title": "英文文學特刊《莎士比亞紀事報》",
+     "tags": [
+      "版式設計",
+      "圖中文字"
+     ]
+    },
+    "ko": {
+     "title": "문학 특집 신문 셰익스피어 크로니클",
+     "tags": [
+      "편집 디자인",
+      "이미지 속 글자"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-02",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-02.webp"
+    ],
+    "poster": "text-design-02-sm.webp",
+    "width": 1200,
+    "height": 1600
+   },
+   "ratio": "3:4",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "Create a graffiti collage poster about collaborative street printing, using lime green, aubergine purple and mint over a gray-white photocopied paper texture. Oversized “PRINT PLAY!” lettering overlaps diagonally. A grayscale printmaker at the upper right holds a roller and",
+   "complete": false,
+   "prompt": "Create a graffiti collage poster about collaborative street printing, using lime green, aubergine purple and mint over a gray-white photocopied paper texture. Oversized “PRINT PLAY!” lettering overlaps diagonally. A grayscale printmaker at the upper right holds a roller and print sample, with printing tools and handwritten phrases including “MAKE A MARK” and “PASS IT ON” below. Preserve matte halftone ink, fine grain and legible lettering in a layered, asymmetric composition.",
+   "text": {
+    "en": {
+     "title": "Graffiti collage poster about street printing",
+     "tags": [
+      "Poster",
+      "In-image text"
+     ]
+    },
+    "zh": {
+     "title": "街头印刷主题的涂鸦拼贴海报",
+     "tags": [
+      "海报",
+      "图中文字"
+     ]
+    },
+    "zh-TW": {
+     "title": "街頭印刷主題的塗鴉拼貼海報",
+     "tags": [
+      "海報",
+      "圖中文字"
+     ]
+    },
+    "ko": {
+     "title": "거리 인쇄 주제의 그라피티 콜라주 포스터",
+     "tags": [
+      "포스터",
+      "이미지 속 글자"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-03",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-03.webp"
+    ],
+    "poster": "text-design-03-sm.webp",
+    "width": 1200,
+    "height": 1600
+   },
+   "ratio": "3:4",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "Create an illustrated infographic poster titled “FROM SEED TO SALAD” on warm-white paper with a handmade print texture. One continuous path snakes across three tiers, linking six numbered stages in order: SOW, SPROUT, GROW, TEND, HARVEST and SHARE. Five correctly directed arrows",
+   "complete": false,
+   "prompt": "Create an illustrated infographic poster titled “FROM SEED TO SALAD” on warm-white paper with a handmade print texture. One continuous path snakes across three tiers, linking six numbered stages in order: SOW, SPROUT, GROW, TEND, HARVEST and SHARE. Five correctly directed arrows connect the sequence. Pair miniature gardening scenes and English descriptions with each stage, keeping the reading order clear, lettering legible and colors soft yet varied.",
+   "text": {
+    "en": {
+     "title": "Infographic poster \"From Seed to Salad\"",
+     "tags": [
+      "Infographic",
+      "In-image text"
+     ]
+    },
+    "zh": {
+     "title": "信息图海报《从种子到沙拉》",
+     "tags": [
+      "信息图",
+      "图中文字"
+     ]
+    },
+    "zh-TW": {
+     "title": "資訊圖表海報〈從種子到沙拉〉",
+     "tags": [
+      "資訊圖表",
+      "圖中文字"
+     ]
+    },
+    "ko": {
+     "title": "인포그래픽 포스터 From Seed to Salad",
+     "tags": [
+      "인포그래픽",
+      "이미지 속 글자"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-04",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-04.webp"
+    ],
+    "poster": "text-design-04-sm.webp",
+    "width": 1600,
+    "height": 898
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "A horizontal natural-history infographic titled “蓝闪蝶：一只蝴蝶的微观宇宙”, with the English heading “BLUE MORPHO・A CLOSER LOOK”. A large blue morpho spreads its wings against a black background, surrounded by eight macro-detail modules: antennae, structural color, wing margin, proboscis",
+   "complete": false,
+   "prompt": "A horizontal natural-history infographic titled “蓝闪蝶：一只蝴蝶的微观宇宙”, with the English heading “BLUE MORPHO・A CLOSER LOOK”. A large blue morpho spreads its wings against a black background, surrounded by eight macro-detail modules: antennae, structural color, wing margin, proboscis, compound eye, ventral wing, wing venation and wing scales. Pair Chinese explanations with English terms and observation notes. Preserve legible small text and fine wing textures, with a footer stating that enlarged details are illustrative and not to scale.",
+   "text": {
+    "en": {
+     "title": "Bilingual blue morpho butterfly infographic",
+     "tags": [
+      "Infographic",
+      "Multilingual"
+     ]
+    },
+    "zh": {
+     "title": "中英双语蓝闪蝶科普信息图",
+     "tags": [
+      "信息图",
+      "多语言"
+     ]
+    },
+    "zh-TW": {
+     "title": "中英雙語藍閃蝶科普資訊圖表",
+     "tags": [
+      "資訊圖表",
+      "多語言"
+     ]
+    },
+    "ko": {
+     "title": "중영 이중 언어 모르포나비 인포그래픽",
+     "tags": [
+      "인포그래픽",
+      "다국어"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-05",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-05.webp"
+    ],
+    "poster": "text-design-05-sm.webp",
+    "width": 1600,
+    "height": 900
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "Dheepanratnam",
+    "url": "https://x.com/Dheepanratnam"
+   },
+   "sourceUrl": "https://x.com/Dheepanratnam/status/2119767938173387065",
+   "needsReference": false,
+   "preview": "Premium magazine cover design titled “THE FUTURE OF CREATIVE TOOLS”, with a realistic portrait of a stylish creative director in the lower third. Dense small cover lines around the edges: “Issue 24”, “AI Workflows”, “Design Systems”, “Cinematic Image Making”, “Inside the Studio”",
+   "complete": false,
+   "prompt": "Premium magazine cover design titled “THE FUTURE OF CREATIVE TOOLS”, with a realistic portrait of a stylish creative director in the lower third. Dense small cover lines around the edges: “Issue 24”, “AI Workflows”, “Design Systems”, “Cinematic Image Making”, “Inside the Studio”, “November 2026”. Clean modern serif masthead, precise kerning, crisp letterforms, editorial grid, muted cream background, subtle paper texture, high-end print-design layout. All text must be spelled exactly as written, no distorted letters, no duplicated words, no gibberish.",
+   "text": {
+    "en": {
+     "title": "Magazine cover packed with small cover lines",
+     "tags": [
+      "Editorial",
+      "In-image text"
+     ]
+    },
+    "zh": {
+     "title": "满是小字栏目的杂志封面",
+     "tags": [
+      "版式设计",
+      "图中文字"
+     ]
+    },
+    "zh-TW": {
+     "title": "滿是小字欄目的雜誌封面",
+     "tags": [
+      "版式設計",
+      "圖中文字"
+     ]
+    },
+    "ko": {
+     "title": "작은 글자가 빼곡한 잡지 표지",
+     "tags": [
+      "편집 디자인",
+      "이미지 속 글자"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-06",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-06.webp"
+    ],
+    "poster": "text-design-06-sm.webp",
+    "width": 1600,
+    "height": 900
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "Dheepanratnam",
+    "url": "https://x.com/Dheepanratnam"
+   },
+   "sourceUrl": "https://x.com/Dheepanratnam/status/2119767938173387065",
+   "needsReference": false,
+   "preview": "Minimalist skincare packaging mock-up on a pale stone pedestal. A frosted-glass serum bottle has a clean label reading exactly “LUMEN — BARRIER REPAIR SERUM”, with smaller text beneath: “30 ml / 1.0 fl oz”. Elegant sans-serif typography, perfectly straight label alignment, crisp",
+   "complete": false,
+   "prompt": "Minimalist skincare packaging mock-up on a pale stone pedestal. A frosted-glass serum bottle has a clean label reading exactly “LUMEN — BARRIER REPAIR SERUM”, with smaller text beneath: “30 ml / 1.0 fl oz”. Elegant sans-serif typography, perfectly straight label alignment, crisp small print, realistic glass refraction, soft studio lighting, subtle shadow, premium cosmetic advertising photography, no misspelled words, no extra branding, no watermark.",
+   "text": {
+    "en": {
+     "title": "Skincare serum label mock-up with fine print",
+     "tags": [
+      "Product shot",
+      "In-image text"
+     ]
+    },
+    "zh": {
+     "title": "带细小文字的精华液包装样机",
+     "tags": [
+      "商品图",
+      "图中文字"
+     ]
+    },
+    "zh-TW": {
+     "title": "帶細小文字的精華液包裝樣機",
+     "tags": [
+      "商品圖",
+      "圖中文字"
+     ]
+    },
+    "ko": {
+     "title": "작은 글자가 있는 세럼 패키지 목업",
+     "tags": [
+      "제품 사진",
+      "이미지 속 글자"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-07",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-07.webp"
+    ],
+    "poster": "text-design-07-sm.webp",
+    "width": 1600,
+    "height": 900
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "Dheepanratnam",
+    "url": "https://x.com/Dheepanratnam"
+   },
+   "sourceUrl": "https://x.com/Dheepanratnam/status/2119767938173387065",
+   "needsReference": false,
+   "preview": "Bold gig poster for an underground electronic music night. Large headline reads exactly “NIGHT SIGNAL”, with supporting text: “Friday 27 November”, “Warehouse 9, London”, “Doors 10PM”. Experimental Swiss-style layout, high-contrast black, off-white and electric blue, grainy",
+   "complete": false,
+   "prompt": "Bold gig poster for an underground electronic music night. Large headline reads exactly “NIGHT SIGNAL”, with supporting text: “Friday 27 November”, “Warehouse 9, London”, “Doors 10PM”. Experimental Swiss-style layout, high-contrast black, off-white and electric blue, grainy risograph texture, sharp geometric typography, intentional negative space, screen-print aesthetic. All words spelled exactly as specified, no extra text, no warped letters, no AI artefacts.",
+   "text": {
+    "en": {
+     "title": "Swiss-style gig poster \"Night Signal\"",
+     "tags": [
+      "Poster",
+      "In-image text"
+     ]
+    },
+    "zh": {
+     "title": "瑞士风格演出海报 Night Signal",
+     "tags": [
+      "海报",
+      "图中文字"
+     ]
+    },
+    "zh-TW": {
+     "title": "瑞士風格演出海報 Night Signal",
+     "tags": [
+      "海報",
+      "圖中文字"
+     ]
+    },
+    "ko": {
+     "title": "스위스 스타일 공연 포스터 Night Signal",
+     "tags": [
+      "포스터",
+      "이미지 속 글자"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-08",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-08.webp"
+    ],
+    "poster": "text-design-08-sm.webp",
+    "width": 1600,
+    "height": 900
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "ahmetmertugrul",
+    "url": "https://x.com/ahmetmertugrul"
+   },
+   "sourceUrl": "https://x.com/ahmetmertugrul/status/2119915956365369596",
+   "needsReference": false,
+   "preview": "A vintage naturalist field-guide page, aged cream paper with foxing stains, documenting a fictional deep-sea creature called \"Lanternfin Abyssal Eel\". Center: a detailed scientific ink-and-watercolor illustration of the eel with bioluminescent spots. Surrounding it, 10 numbered",
+   "complete": false,
+   "prompt": "A vintage naturalist field-guide page, aged cream paper with foxing stains, documenting a fictional deep-sea creature called \"Lanternfin Abyssal Eel\". Center: a detailed scientific ink-and-watercolor illustration of the eel with bioluminescent spots. Surrounding it, 10 numbered callout labels with thin leader lines, each with a 2-line caption in small serif type (e.g. \"3. Photophore cluster — emits pulses at 490 nm to lure prey\"). Top header in ornate engraved capitals: \"PLATE XLVII — CREATURES OF THE MIDNIGHT ZONE\". Bottom: a small data table with columns \"Depth\", \"Length\", \"Lifespan\", \"Diet\" and three rows of values, plus a tiny scale bar reading \"10 cm\". Flat top-down scan, every word sharp and legible.",
+   "text": {
+    "en": {
+     "title": "Field-guide plate of a fictional deep-sea eel",
+     "tags": [
+      "Infographic",
+      "Illustration"
+     ]
+    },
+    "zh": {
+     "title": "虚构深海鳗鱼的博物图鉴页",
+     "tags": [
+      "信息图",
+      "插画"
+     ]
+    },
+    "zh-TW": {
+     "title": "虛構深海鰻魚的博物圖鑑頁",
+     "tags": [
+      "資訊圖表",
+      "插畫"
+     ]
+    },
+    "ko": {
+     "title": "가상의 심해 장어 도감 페이지",
+     "tags": [
+      "인포그래픽",
+      "일러스트"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-09",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-09.webp"
+    ],
+    "poster": "text-design-09-sm.webp",
+    "width": 1200,
+    "height": 674
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "vista8",
+    "url": "https://x.com/vista8"
+   },
+   "sourceUrl": "https://x.com/vista8/status/2120085580264714732",
+   "needsReference": false,
+   "preview": "为一款名叫 Capwise 的录屏软件设计 10 种不同风格的 icon，扁平风格，顶级水平",
+   "complete": true,
+   "prompt": "为一款名叫 Capwise 的录屏软件设计 10 种不同风格的 icon，扁平风格，顶级水平",
+   "text": {
+    "en": {
+     "title": "Ten icon styles for a screen-recording app",
+     "tags": [
+      "Icons",
+      "Design asset"
+     ]
+    },
+    "zh": {
+     "title": "为录屏软件设计 10 种风格图标",
+     "tags": [
+      "图标",
+      "设计素材"
+     ]
+    },
+    "zh-TW": {
+     "title": "為錄影軟體設計 10 種風格圖示",
+     "tags": [
+      "圖示",
+      "設計素材"
+     ]
+    },
+    "ko": {
+     "title": "화면 녹화 앱 아이콘 10가지 스타일",
+     "tags": [
+      "아이콘",
+      "디자인 소스"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-10",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-10.webp"
+    ],
+    "poster": "text-design-10-sm.webp",
+    "width": 676,
+    "height": 1200
+   },
+   "ratio": "9:16",
+   "author": {
+    "name": "oran_ge",
+    "url": "https://x.com/oran_ge"
+   },
+   "sourceUrl": "https://x.com/oran_ge/status/2120037929615503812",
+   "needsReference": false,
+   "preview": "9:16 竖屏短剧封面。昏暗老楼走廊，尽头一扇半开的电梯门，门上红色 LED 楼层数字「13」是最亮的东西。三行字：顶部标题「第13层」，中部副题「短剧 · 全集上线」，底部一行「别按那个键」。红色数字要跳、字要清楚，三行字居中对称，不许压到人脸。冷绿灰调，走廊纵深要能看出景深，只有电梯里透出一点红光。",
+   "complete": true,
+   "prompt": "9:16 竖屏短剧封面。昏暗老楼走廊，尽头一扇半开的电梯门，门上红色 LED 楼层数字「13」是最亮的东西。三行字：顶部标题「第13层」，中部副题「短剧 · 全集上线」，底部一行「别按那个键」。红色数字要跳、字要清楚，三行字居中对称，不许压到人脸。冷绿灰调，走廊纵深要能看出景深，只有电梯里透出一点红光。",
+   "text": {
+    "en": {
+     "title": "Short-drama cover \"第13层\" in a dark hallway",
+     "tags": [
+      "Short drama",
+      "Poster"
+     ]
+    },
+    "zh": {
+     "title": "短剧封面《第13层》：昏暗走廊里的电梯",
+     "tags": [
+      "短剧",
+      "海报"
+     ]
+    },
+    "zh-TW": {
+     "title": "短劇封面《第13层》：昏暗走廊裡的電梯",
+     "tags": [
+      "短劇",
+      "海報"
+     ]
+    },
+    "ko": {
+     "title": "숏드라마 표지 '13층': 어두운 복도",
+     "tags": [
+      "숏드라마",
+      "포스터"
+     ]
+    }
+   }
+  },
+  {
+   "id": "text-design-11",
+   "category": "text-design",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "text-design-11.webp"
+    ],
+    "poster": "text-design-11-sm.webp",
+    "width": 902,
+    "height": 1200
+   },
+   "ratio": "3:4",
+   "author": {
+    "name": "oran_ge",
+    "url": "https://x.com/oran_ge"
+   },
+   "sourceUrl": "https://x.com/oran_ge/status/2120037929615503812",
+   "needsReference": false,
+   "preview": "三个膨胀立体大字「夯爆了」，糖果色塑料气球质感，字要撑满画面，字与字之间互相挤压、有前后遮挡，边缘高光通透。浅粉橘色背景，几颗小星星和一团小烟做点缀。字体卡通、笔画圆胖。",
+   "complete": true,
+   "prompt": "三个膨胀立体大字「夯爆了」，糖果色塑料气球质感，字要撑满画面，字与字之间互相挤压、有前后遮挡，边缘高光通透。浅粉橘色背景，几颗小星星和一团小烟做点缀。字体卡通、笔画圆胖。",
+   "text": {
+    "en": {
+     "title": "Inflated 3D lettering \"夯爆了\"",
+     "tags": [
+      "3D lettering",
+      "In-image text"
+     ]
+    },
+    "zh": {
+     "title": "膨胀气球立体字「夯爆了」",
+     "tags": [
+      "立体字",
+      "图中文字"
+     ]
+    },
+    "zh-TW": {
+     "title": "膨脹氣球立體字「夯爆了」",
+     "tags": [
+      "立體字",
+      "圖中文字"
+     ]
+    },
+    "ko": {
+     "title": "부푼 풍선 3D 글자 '夯爆了'",
+     "tags": [
+      "3D 레터링",
+      "이미지 속 글자"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-01",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-01.webp"
+    ],
+    "poster": "transparent-assets-01-sm.webp",
+    "width": 712,
+    "height": 1078
+   },
+   "ratio": "2:3",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "Generate a sequence of images showing a girl running to the right, each on a separate layer with a transparent background.",
+   "complete": true,
+   "prompt": "Generate a sequence of images showing a girl running to the right, each on a separate layer with a transparent background.",
+   "text": {
+    "en": {
+     "title": "Running girl, one transparent layer per frame",
+     "tags": [
+      "Transparent PNG",
+      "Layers"
+     ]
+    },
+    "zh": {
+     "title": "奔跑女孩连续动作，每帧一张透明图层",
+     "tags": [
+      "透明底",
+      "分图层"
+     ]
+    },
+    "zh-TW": {
+     "title": "奔跑女孩連續動作，每格一張透明圖層",
+     "tags": [
+      "透明底",
+      "分圖層"
+     ]
+    },
+    "ko": {
+     "title": "달리는 소녀, 프레임마다 투명 레이어",
+     "tags": [
+      "투명 PNG",
+      "레이어"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-02",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-02.webp"
+    ],
+    "poster": "transparent-assets-02-sm.webp",
+    "width": 714,
+    "height": 1284
+   },
+   "ratio": "9:16",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "Generate two sets of cartoon stickers: one featuring ocean elements and cartoon cats, and the other featuring animals and plants. Keep the background transparent outside the sticker elements in both sets.",
+   "complete": true,
+   "prompt": "Generate two sets of cartoon stickers: one featuring ocean elements and cartoon cats, and the other featuring animals and plants. Keep the background transparent outside the sticker elements in both sets.",
+   "text": {
+    "en": {
+     "title": "Two cartoon sticker sets on a transparent background",
+     "tags": [
+      "Stickers",
+      "Transparent PNG"
+     ]
+    },
+    "zh": {
+     "title": "透明底的两套卡通贴纸",
+     "tags": [
+      "贴纸",
+      "透明底"
+     ]
+    },
+    "zh-TW": {
+     "title": "透明底的兩套卡通貼紙",
+     "tags": [
+      "貼紙",
+      "透明底"
+     ]
+    },
+    "ko": {
+     "title": "투명 배경의 만화 스티커 두 세트",
+     "tags": [
+      "스티커",
+      "투명 PNG"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-03",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-03.webp"
+    ],
+    "poster": "transparent-assets-03-sm.webp",
+    "width": 1600,
+    "height": 900
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": true,
+   "preview": "Create “Seedream 5.5” inspired by the reference texture and style. Use rounded, bold sans-serif letters wrapped in alternating royal-blue and lake-blue yarn, with visible fibers, fuzz and side shadows. Use a 16:9 landscape format with a transparent background outside the",
+   "complete": false,
+   "prompt": "Create “Seedream 5.5” inspired by the reference texture and style. Use rounded, bold sans-serif letters wrapped in alternating royal-blue and lake-blue yarn, with visible fibers, fuzz and side shadows. Use a 16:9 landscape format with a transparent background outside the lettering.",
+   "text": {
+    "en": {
+     "title": "\"Seedream 5.5\" in blue yarn lettering",
+     "tags": [
+      "Reference image",
+      "3D lettering"
+     ]
+    },
+    "zh": {
+     "title": "蓝色毛线缠绕的 Seedream 5.5 字样",
+     "tags": [
+      "参考图",
+      "立体字"
+     ]
+    },
+    "zh-TW": {
+     "title": "藍色毛線纏繞的 Seedream 5.5 字樣",
+     "tags": [
+      "參考圖",
+      "立體字"
+     ]
+    },
+    "ko": {
+     "title": "파란 털실로 감은 Seedream 5.5 글자",
+     "tags": [
+      "참고 이미지",
+      "3D 레터링"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-04",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-04.webp"
+    ],
+    "poster": "transparent-assets-04-sm.webp",
+    "width": 1600,
+    "height": 900
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "Create a playful blue plush 3D cartoon character with a rounded body, big eyes and short limbs. Add three characters in the same style with distinct shapes and expressions. Output each character as a separate image with a transparent background, so the four characters can be",
+   "complete": false,
+   "prompt": "Create a playful blue plush 3D cartoon character with a rounded body, big eyes and short limbs. Add three characters in the same style with distinct shapes and expressions. Output each character as a separate image with a transparent background, so the four characters can be separated and combined like puzzle pieces.",
+   "text": {
+    "en": {
+     "title": "Four plush characters as separate PNGs",
+     "tags": [
+      "3D render",
+      "Transparent PNG"
+     ]
+    },
+    "zh": {
+     "title": "四个毛绒角色，各自一张透明图",
+     "tags": [
+      "3D 渲染",
+      "透明底"
+     ]
+    },
+    "zh-TW": {
+     "title": "四個毛絨角色，各自一張透明圖",
+     "tags": [
+      "3D 算圖",
+      "透明底"
+     ]
+    },
+    "ko": {
+     "title": "봉제 캐릭터 넷, 각각 투명 PNG",
+     "tags": [
+      "3D 렌더",
+      "투명 PNG"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-05",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-05.webp",
+     "transparent-assets-05-2.webp"
+    ],
+    "poster": "transparent-assets-05-sm.webp",
+    "width": 1200,
+    "height": 1600
+   },
+   "ratio": "3:4",
+   "author": {
+    "name": "BytePlus ModelArk",
+    "url": "https://docs.byteplus.com/en/docs/ModelArk/seedream-5-5"
+   },
+   "sourceUrl": "https://docs.byteplus.com/en/docs/ModelArk/seedream-5-5#multi-turn-editing-consistency",
+   "needsReference": true,
+   "preview": "Have the person blow a round, semi-transparent pink bubblegum bubble. Preserve the identity, facial features, gaze, hairstyle, pearl earrings, clothing, pose, blue background, composition, and visual style of the person.",
+   "complete": true,
+   "prompt": "Have the person blow a round, semi-transparent pink bubblegum bubble. Preserve the identity, facial features, gaze, hairstyle, pearl earrings, clothing, pose, blue background, composition, and visual style of the person.",
+   "text": {
+    "en": {
+     "title": "Edit: blow a pink bubblegum bubble, keep everything else",
+     "tags": [
+      "Image edit",
+      "Reference image"
+     ]
+    },
+    "zh": {
+     "title": "改图：吹出粉色泡泡糖，其余不变",
+     "tags": [
+      "图片编辑",
+      "参考图"
+     ]
+    },
+    "zh-TW": {
+     "title": "改圖：吹出粉紅泡泡糖，其餘不變",
+     "tags": [
+      "圖片編輯",
+      "參考圖"
+     ]
+    },
+    "ko": {
+     "title": "편집: 분홍 풍선껌 불기, 나머지 유지",
+     "tags": [
+      "이미지 편집",
+      "참고 이미지"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-06",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-06.webp"
+    ],
+    "poster": "transparent-assets-06-sm.webp",
+    "width": 1070,
+    "height": 1600
+   },
+   "ratio": "2:3",
+   "author": {
+    "name": "BytePlus ModelArk",
+    "url": "https://docs.byteplus.com/en/docs/ModelArk/seedream-5-5"
+   },
+   "sourceUrl": "https://docs.byteplus.com/en/docs/ModelArk/seedream-5-5#transparent-background",
+   "needsReference": false,
+   "preview": "A transparent acrylic standee with a Christmas theme, a rectangular outline, and a thin white edge on all sides that brings out the transparent material. Use a scrapbook collage style: place a red-and-green two-tone vinyl record with a golden rim at the center, surrounded by a",
+   "complete": false,
+   "prompt": "A transparent acrylic standee with a Christmas theme, a rectangular outline, and a thin white edge on all sides that brings out the transparent material. Use a scrapbook collage style: place a red-and-green two-tone vinyl record with a golden rim at the center, surrounded by a dimensional Christmas wreath of acorn leaves and pine branches. Decorate the wreath with hand-drawn red berries, golden four-pointed stars, reindeer, and snowflake stickers. Overlay a minimalist white music-player UI below, with play/pause controls, a progress bar (01:24 / 04:32), and a volume icon. Use vintage red, forest green, champagne gold, and off-white. Add occasional highlights refracted by the acrylic thickness for a realistic product finish. Set a transparent background.",
+   "text": {
+    "en": {
+     "title": "Christmas acrylic standee with a music-player UI",
+     "tags": [
+      "Transparent PNG",
+      "Product shot"
+     ]
+    },
+    "zh": {
+     "title": "带播放器界面的圣诞亚克力立牌",
+     "tags": [
+      "透明底",
+      "商品图"
+     ]
+    },
+    "zh-TW": {
+     "title": "帶播放器介面的聖誕壓克力立牌",
+     "tags": [
+      "透明底",
+      "商品圖"
+     ]
+    },
+    "ko": {
+     "title": "음악 플레이어 UI가 있는 크리스마스 아크릴 스탠드",
+     "tags": [
+      "투명 PNG",
+      "제품 사진"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-07",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-07.webp",
+     "transparent-assets-07-2.webp",
+     "transparent-assets-07-3.webp"
+    ],
+    "poster": "transparent-assets-07-sm.webp",
+    "width": 1600,
+    "height": 1070
+   },
+   "ratio": "3:2",
+   "author": {
+    "name": "BytePlus ModelArk",
+    "url": "https://docs.byteplus.com/en/docs/ModelArk/seedream-5-5"
+   },
+   "sourceUrl": "https://docs.byteplus.com/en/docs/ModelArk/seedream-5-5#transparent-background",
+   "needsReference": true,
+   "preview": "Extract the sticker elements from Image 1 and Image 2 separately, then place all extracted stickers in one transparent-background image. Preserve each sticker's original text, colors, shapes, and details; remove all background content other than the stickers. Arrange the",
+   "complete": false,
+   "prompt": "Extract the sticker elements from Image 1 and Image 2 separately, then place all extracted stickers in one transparent-background image. Preserve each sticker's original text, colors, shapes, and details; remove all background content other than the stickers. Arrange the stickers separately without overlap, with sharp and intact edges.",
+   "text": {
+    "en": {
+     "title": "Stickers pulled from two photos onto one transparent sheet",
+     "tags": [
+      "Reference image",
+      "Stickers"
+     ]
+    },
+    "zh": {
+     "title": "从两张图里提取贴纸，合成一张透明图",
+     "tags": [
+      "参考图",
+      "贴纸"
+     ]
+    },
+    "zh-TW": {
+     "title": "從兩張圖裡擷取貼紙，合成一張透明圖",
+     "tags": [
+      "參考圖",
+      "貼紙"
+     ]
+    },
+    "ko": {
+     "title": "두 사진에서 스티커를 뽑아 투명 시트로",
+     "tags": [
+      "참고 이미지",
+      "스티커"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-08",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-08.webp"
+    ],
+    "poster": "transparent-assets-08-sm.webp",
+    "width": 1600,
+    "height": 900
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "ahmetmertugrul",
+    "url": "https://x.com/ahmetmertugrul"
+   },
+   "sourceUrl": "https://x.com/ahmetmertugrul/status/2119920477535719739",
+   "needsReference": false,
+   "preview": "Transparent background, PNG with alpha channel. A hand-blown glass jellyfish lamp floating in mid-air: semi-transparent frosted bell with visible internal air bubbles, long trailing tentacles made of thin glass threads that fade from fully opaque at the top to almost invisible",
+   "complete": false,
+   "prompt": "Transparent background, PNG with alpha channel. A hand-blown glass jellyfish lamp floating in mid-air: semi-transparent frosted bell with visible internal air bubbles, long trailing tentacles made of thin glass threads that fade from fully opaque at the top to almost invisible at the tips, a faint warm amber glow inside the bell, soft caustic refractions, wisps of translucent steam drifting from the tentacle ends. No background, no ground shadow, clean anti-aliased edges, studio product lighting.",
+   "text": {
+    "en": {
+     "title": "Glass jellyfish lamp with partial transparency",
+     "tags": [
+      "Semi-transparent",
+      "Transparent PNG"
+     ]
+    },
+    "zh": {
+     "title": "半透明的玻璃水母灯",
+     "tags": [
+      "半透明",
+      "透明底"
+     ]
+    },
+    "zh-TW": {
+     "title": "半透明的玻璃水母燈",
+     "tags": [
+      "半透明",
+      "透明底"
+     ]
+    },
+    "ko": {
+     "title": "반투명 유리 해파리 램프",
+     "tags": [
+      "반투명",
+      "투명 PNG"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-09",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-09.webp"
+    ],
+    "poster": "transparent-assets-09-sm.webp",
+    "width": 1600,
+    "height": 1600
+   },
+   "ratio": "1:1",
+   "author": {
+    "name": "Dheepanratnam",
+    "url": "https://x.com/Dheepanratnam"
+   },
+   "sourceUrl": "https://x.com/Dheepanratnam/status/2119775195573481859",
+   "needsReference": false,
+   "preview": "Studio product asset of a translucent amber glass perfume bottle with a brushed-gold cap, floating centred in the frame. Fully transparent background with native alpha channel, clean accurate edges around the glass, cap and reflections, no background colour bleed, no white halo",
+   "complete": false,
+   "prompt": "Studio product asset of a translucent amber glass perfume bottle with a brushed-gold cap, floating centred in the frame. Fully transparent background with native alpha channel, clean accurate edges around the glass, cap and reflections, no background colour bleed, no white halo, no cut-off shadows. Preserve realistic glass refraction and internal liquid. Commercial e-commerce asset, front-facing composition, high detail, suitable for direct placement onto any design background.",
+   "text": {
+    "en": {
+     "title": "Amber perfume bottle as a transparent asset",
+     "tags": [
+      "Product shot",
+      "Transparent PNG"
+     ]
+    },
+    "zh": {
+     "title": "琥珀色香水瓶透明素材",
+     "tags": [
+      "商品图",
+      "透明底"
+     ]
+    },
+    "zh-TW": {
+     "title": "琥珀色香水瓶透明素材",
+     "tags": [
+      "商品圖",
+      "透明底"
+     ]
+    },
+    "ko": {
+     "title": "호박색 향수병 투명 소스",
+     "tags": [
+      "제품 사진",
+      "투명 PNG"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-10",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-10.webp"
+    ],
+    "poster": "transparent-assets-10-sm.webp",
+    "width": 1066,
+    "height": 1600
+   },
+   "ratio": "2:3",
+   "author": {
+    "name": "Dheepanratnam",
+    "url": "https://x.com/Dheepanratnam"
+   },
+   "sourceUrl": "https://x.com/Dheepanratnam/status/2119775195573481859",
+   "needsReference": false,
+   "preview": "Full-body cut-out asset of a stylish young Black male streetwear model wearing an oversized charcoal puffer jacket, baggy denim jeans and white trainers, walking casually. Fully transparent background with native alpha channel, precise edges around curly hair, jacket fibres",
+   "complete": false,
+   "prompt": "Full-body cut-out asset of a stylish young Black male streetwear model wearing an oversized charcoal puffer jacket, baggy denim jeans and white trainers, walking casually. Fully transparent background with native alpha channel, precise edges around curly hair, jacket fibres, shoelaces and fingers, no background remnants, no halo, no clipped limbs. Natural stance, studio-quality lighting from front left, suitable for compositing into a fashion campaign.",
+   "text": {
+    "en": {
+     "title": "Full-body streetwear cut-out",
+     "tags": [
+      "Fashion",
+      "Transparent PNG"
+     ]
+    },
+    "zh": {
+     "title": "全身街头穿搭抠图素材",
+     "tags": [
+      "时尚",
+      "透明底"
+     ]
+    },
+    "zh-TW": {
+     "title": "全身街頭穿搭去背素材",
+     "tags": [
+      "時尚",
+      "透明底"
+     ]
+    },
+    "ko": {
+     "title": "전신 스트리트웨어 누끼 소스",
+     "tags": [
+      "패션",
+      "투명 PNG"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-11",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-11.webp"
+    ],
+    "poster": "transparent-assets-11-sm.webp",
+    "width": 1600,
+    "height": 1600
+   },
+   "ratio": "1:1",
+   "author": {
+    "name": "Dheepanratnam",
+    "url": "https://x.com/Dheepanratnam"
+   },
+   "sourceUrl": "https://x.com/Dheepanratnam/status/2119775195573481859",
+   "needsReference": false,
+   "preview": "PNG asset of a hand holding a clear acrylic sheet with a subtle frosted edge, photographed straight on. The acrylic sheet must have realistic partial transparency, visible refraction and a soft translucent gradient, while the hand and fingers remain fully opaque. Native alpha",
+   "complete": false,
+   "prompt": "PNG asset of a hand holding a clear acrylic sheet with a subtle frosted edge, photographed straight on. The acrylic sheet must have realistic partial transparency, visible refraction and a soft translucent gradient, while the hand and fingers remain fully opaque. Native alpha channel, clean anti-aliased edges, no background, no colour contamination, no harsh cut-out edges. Premium UI/design asset, centred composition.",
+   "text": {
+    "en": {
+     "title": "Hand holding a frosted acrylic sheet",
+     "tags": [
+      "Semi-transparent",
+      "Design asset"
+     ]
+    },
+    "zh": {
+     "title": "手持磨砂亚克力板的半透明素材",
+     "tags": [
+      "半透明",
+      "设计素材"
+     ]
+    },
+    "zh-TW": {
+     "title": "手持霧面壓克力板的半透明素材",
+     "tags": [
+      "半透明",
+      "設計素材"
+     ]
+    },
+    "ko": {
+     "title": "반투명 아크릴판을 든 손",
+     "tags": [
+      "반투명",
+      "디자인 소스"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transparent-assets-12",
+   "category": "transparent-assets",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "transparent-assets-12.webp"
+    ],
+    "poster": "transparent-assets-12-sm.webp",
+    "width": 1600,
+    "height": 1600
+   },
+   "ratio": "1:1",
+   "author": {
+    "name": "Dheepanratnam",
+    "url": "https://x.com/Dheepanratnam"
+   },
+   "sourceUrl": "https://x.com/Dheepanratnam/status/2119775195573481859",
+   "needsReference": false,
+   "preview": "Transparent PNG asset of a floating 3D chrome ribbon logo shape, elegantly twisted like liquid metal, with realistic specular highlights and soft internal reflections. Fully transparent background, native alpha channel, crisp edges around every curve, no background glow, no",
+   "complete": false,
+   "prompt": "Transparent PNG asset of a floating 3D chrome ribbon logo shape, elegantly twisted like liquid metal, with realistic specular highlights and soft internal reflections. Fully transparent background, native alpha channel, crisp edges around every curve, no background glow, no rectangular bounding artefacts, no drop shadow baked in. Minimal premium brand asset, centred, suitable for overlaying on video or web design.",
+   "text": {
+    "en": {
+     "title": "Chrome ribbon logo shape for overlays",
+     "tags": [
+      "Design asset",
+      "3D render"
+     ]
+    },
+    "zh": {
+     "title": "用于叠加的镀铬丝带标志",
+     "tags": [
+      "设计素材",
+      "3D 渲染"
+     ]
+    },
+    "zh-TW": {
+     "title": "用於疊加的鍍鉻緞帶標誌",
+     "tags": [
+      "設計素材",
+      "3D 算圖"
+     ]
+    },
+    "ko": {
+     "title": "오버레이용 크롬 리본 로고",
+     "tags": [
+      "디자인 소스",
+      "3D 렌더"
+     ]
+    }
+   }
+  },
+  {
+   "id": "illustration-characters-01",
+   "category": "illustration-characters",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "illustration-characters-01.webp"
+    ],
+    "poster": "illustration-characters-01-sm.webp",
+    "width": 1200,
+    "height": 1600
+   },
+   "ratio": "3:4",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "A fantasy picture-book illustration with delicate gouache textures, set in a cloud-sea glider workshop. A bear mechanic steadies the mast, a red panda pilot pulls the sail rope from inside the boat, and an otter assistant approaches in the foreground carrying a wooden securing",
+   "complete": false,
+   "prompt": "A fantasy picture-book illustration with delicate gouache textures, set in a cloud-sea glider workshop. A bear mechanic steadies the mast, a red panda pilot pulls the sail rope from inside the boat, and an otter assistant approaches in the foreground carrying a wooden securing pin. A low, upward-looking view and gently tilted perspective emphasize the bow, triangular sail and tall timber roof. Cream, deep teal and honey-colored wood create a bright, warm scene of teamwork.",
+   "text": {
+    "en": {
+     "title": "Gouache picture book: a cloud-sea glider workshop",
+     "tags": [
+      "Illustration",
+      "Handcraft"
+     ]
+    },
+    "zh": {
+     "title": "水粉绘本：云海滑翔机工坊",
+     "tags": [
+      "插画",
+      "手工质感"
+     ]
+    },
+    "zh-TW": {
+     "title": "水粉繪本：雲海滑翔機工坊",
+     "tags": [
+      "插畫",
+      "手工質感"
+     ]
+    },
+    "ko": {
+     "title": "과슈 그림책: 구름바다 글라이더 공방",
+     "tags": [
+      "일러스트",
+      "수공예"
+     ]
+    }
+   }
+  },
+  {
+   "id": "illustration-characters-02",
+   "category": "illustration-characters",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "illustration-characters-02.webp"
+    ],
+    "poster": "illustration-characters-02-sm.webp",
+    "width": 1200,
+    "height": 1600
+   },
+   "ratio": "3:4",
+   "author": {
+    "name": "ByteDance Seed",
+    "url": "https://seed.bytedance.com/en/seedream5_5"
+   },
+   "sourceUrl": "https://seed.bytedance.com/en/seedream5_5",
+   "needsReference": false,
+   "preview": "Design a vertical blueberry collectible-character board with sky-blue and cream cloud-shaped sections. Use the title “BERRY CLUB” and the Chinese tagline “小小一颗，慢慢快乐”. Feature the main character “莓小蓝” alongside four themed variants: MAIL RUNNER, RAINY DAY, STAR GUARDIAN and",
+   "complete": false,
+   "prompt": "Design a vertical blueberry collectible-character board with sky-blue and cream cloud-shaped sections. Use the title “BERRY CLUB” and the Chinese tagline “小小一颗，慢慢快乐”. Feature the main character “莓小蓝” alongside four themed variants: MAIL RUNNER, RAINY DAY, STAR GUARDIAN and BLUEBERRY CHEF. Below, arrange front, side and back views, five expressions and six accessories. Keep consistent character proportions, matte vinyl textures and rounded bilingual typography in a rich, orderly layout.",
+   "text": {
+    "en": {
+     "title": "\"Berry Club\" blueberry character board",
+     "tags": [
+      "Character sheet",
+      "In-image text"
+     ]
+    },
+    "zh": {
+     "title": "蓝莓收藏角色设定板 BERRY CLUB",
+     "tags": [
+      "角色设定",
+      "图中文字"
+     ]
+    },
+    "zh-TW": {
+     "title": "藍莓收藏角色設定板 BERRY CLUB",
+     "tags": [
+      "角色設定",
+      "圖中文字"
+     ]
+    },
+    "ko": {
+     "title": "블루베리 캐릭터 보드 BERRY CLUB",
+     "tags": [
+      "캐릭터 시트",
+      "이미지 속 글자"
+     ]
+    }
+   }
+  },
+  {
+   "id": "illustration-characters-03",
+   "category": "illustration-characters",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "illustration-characters-03.webp"
+    ],
+    "poster": "illustration-characters-03-sm.webp",
+    "width": 1066,
+    "height": 1600
+   },
+   "ratio": "2:3",
+   "author": {
+    "name": "yourPlugAI",
+    "url": "https://x.com/yourPlugAI"
+   },
+   "sourceUrl": "https://x.com/yourPlugAI/status/2120176960999403776",
+   "needsReference": false,
+   "preview": "3D paper quilling art of a graceful woman dancing in side-profile. She wears an elegant sleeveless v-neck dress made of intricately coiled paper strips in a vivid rainbow gradient—transitioning seamlessly through yellow, orange, red, magenta, deep purple, royal blue, and emerald",
+   "complete": false,
+   "prompt": "3D paper quilling art of a graceful woman dancing in side-profile. She wears an elegant sleeveless v-neck dress made of intricately coiled paper strips in a vivid rainbow gradient—transitioning seamlessly through yellow, orange, red, magenta, deep purple, royal blue, and emerald green. \n\nHer long brown hair flows in the wind behind her as she gracefully holds an open quilled umbrella featuring matching rainbow paper panels overhead. She wears bright red high heels, standing atop quilled paper water ripples reflecting vibrant hues. Surrounding her in mid-air are multiple detailed quilled paper butterflies in shades of bright orange, yellow, pink, and sky blue. \n\nThe background is a solid matte dark charcoal grey cardstock, featuring subtle overhead studio directional lighting that casts soft 3D drop shadows underneath the layered paper elements, emphasizing realistic texture and depth. High detail, paper craft sculpture aesthetic, 4k resolution. --ar 2:3",
+   "text": {
+    "en": {
+     "title": "Paper-quilling dancer with a rainbow umbrella",
+     "tags": [
+      "Handcraft",
+      "Illustration"
+     ]
+    },
+    "zh": {
+     "title": "撑彩虹伞的衍纸舞者",
+     "tags": [
+      "手工质感",
+      "插画"
+     ]
+    },
+    "zh-TW": {
+     "title": "撐彩虹傘的衍紙舞者",
+     "tags": [
+      "手工質感",
+      "插畫"
+     ]
+    },
+    "ko": {
+     "title": "무지개 우산을 든 페이퍼 퀼링 무용수",
+     "tags": [
+      "수공예",
+      "일러스트"
+     ]
+    }
+   }
+  },
+  {
+   "id": "illustration-characters-04",
+   "category": "illustration-characters",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "illustration-characters-04.webp"
+    ],
+    "poster": "illustration-characters-04-sm.webp",
+    "width": 1080,
+    "height": 608
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "oran_ge",
+    "url": "https://x.com/oran_ge"
+   },
+   "sourceUrl": "https://x.com/oran_ge/status/2120037929615503812",
+   "needsReference": false,
+   "preview": "角色设定稿，浅灰白底，竖版。正面、四分之三侧、背面三个全身视图并排，身高比例一致，脚底在同一条线上。人物：二十二岁女医，浅青色交领短半臂加素色长裙，发髻插一支木簪。三视图下方排三个表情头：平静、微忧、含泪。最底部一行标注「沈昭 · 医女 · 二十二岁」。线稿干净、淡彩上色，旁边加一点植物线描做边饰。",
+   "complete": true,
+   "prompt": "角色设定稿，浅灰白底，竖版。正面、四分之三侧、背面三个全身视图并排，身高比例一致，脚底在同一条线上。人物：二十二岁女医，浅青色交领短半臂加素色长裙，发髻插一支木簪。三视图下方排三个表情头：平静、微忧、含泪。最底部一行标注「沈昭 · 医女 · 二十二岁」。线稿干净、淡彩上色，旁边加一点植物线描做边饰。",
+   "text": {
+    "en": {
+     "title": "Turnaround sheet of a young physician in hanfu",
+     "tags": [
+      "Character sheet",
+      "Illustration"
+     ]
+    },
+    "zh": {
+     "title": "汉服女医的三视图设定稿",
+     "tags": [
+      "角色设定",
+      "插画"
+     ]
+    },
+    "zh-TW": {
+     "title": "漢服女醫的三視圖設定稿",
+     "tags": [
+      "角色設定",
+      "插畫"
+     ]
+    },
+    "ko": {
+     "title": "한푸 차림 여의사 턴어라운드 시트",
+     "tags": [
+      "캐릭터 시트",
+      "일러스트"
+     ]
+    }
+   }
+  },
+  {
+   "id": "illustration-characters-05",
+   "category": "illustration-characters",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "illustration-characters-05.webp"
+    ],
+    "poster": "illustration-characters-05-sm.webp",
+    "width": 1080,
+    "height": 608
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "oran_ge",
+    "url": "https://x.com/oran_ge"
+   },
+   "sourceUrl": "https://x.com/oran_ge/status/2120037929615503812",
+   "needsReference": false,
+   "preview": "漫剧人设卡，浅灰底，竖版。同一位角色三个视图：正面、四分之三侧、背面，白发、眼下有一颗小痣、深蓝连帽外套、校服裤。右侧竖排色卡，写上「主色 · 辅色」并给出三个色块。底部标注「林夜 · 十七岁 · 高中生」。二次元赛璐璐上色，边缘线干净，不要多余装饰。",
+   "complete": true,
+   "prompt": "漫剧人设卡，浅灰底，竖版。同一位角色三个视图：正面、四分之三侧、背面，白发、眼下有一颗小痣、深蓝连帽外套、校服裤。右侧竖排色卡，写上「主色 · 辅色」并给出三个色块。底部标注「林夜 · 十七岁 · 高中生」。二次元赛璐璐上色，边缘线干净，不要多余装饰。",
+   "text": {
+    "en": {
+     "title": "Anime character card with a color palette",
+     "tags": [
+      "Character sheet",
+      "Anime"
+     ]
+    },
+    "zh": {
+     "title": "带色卡的二次元人设卡",
+     "tags": [
+      "角色设定",
+      "二次元"
+     ]
+    },
+    "zh-TW": {
+     "title": "帶色卡的動漫人設卡",
+     "tags": [
+      "角色設定",
+      "動漫"
+     ]
+    },
+    "ko": {
+     "title": "컬러 팔레트가 있는 애니 캐릭터 카드",
+     "tags": [
+      "캐릭터 시트",
+      "애니메이션"
+     ]
+    }
+   }
+  },
+  {
+   "id": "illustration-characters-06",
+   "category": "illustration-characters",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "illustration-characters-06.webp"
+    ],
+    "poster": "illustration-characters-06-sm.webp",
+    "width": 1080,
+    "height": 608
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "oran_ge",
+    "url": "https://x.com/oran_ge"
+   },
+   "sourceUrl": "https://x.com/oran_ge/status/2120037929615503812",
+   "needsReference": false,
+   "preview": "六格分镜故事板，2 行 3 列，同一角色同一服装同一场景。每格左上角标镜号 1–6，格下一行标注景别：1 全景、2 中景、3 近景、4 特写、5 大特写、6 仰拍（低角度从下往上拍人物）。铅笔线稿风格，淡彩上色，纸面有轻微纸纹，格与格之间用细线分隔。标注文字必须是中文，不要错字。",
+   "complete": true,
+   "prompt": "六格分镜故事板，2 行 3 列，同一角色同一服装同一场景。每格左上角标镜号 1–6，格下一行标注景别：1 全景、2 中景、3 近景、4 特写、5 大特写、6 仰拍（低角度从下往上拍人物）。铅笔线稿风格，淡彩上色，纸面有轻微纸纹，格与格之间用细线分隔。标注文字必须是中文，不要错字。",
+   "text": {
+    "en": {
+     "title": "Six-panel storyboard with shot sizes",
+     "tags": [
+      "Storyboard",
+      "Grid layout"
+     ]
+    },
+    "zh": {
+     "title": "标注景别的六格分镜",
+     "tags": [
+      "分镜",
+      "多格拼图"
+     ]
+    },
+    "zh-TW": {
+     "title": "標註景別的六格分鏡",
+     "tags": [
+      "分鏡",
+      "多格拼圖"
+     ]
+    },
+    "ko": {
+     "title": "샷 크기를 적은 6컷 스토리보드",
+     "tags": [
+      "스토리보드",
+      "그리드"
+     ]
+    }
+   }
+  },
+  {
+   "id": "illustration-characters-07",
+   "category": "illustration-characters",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "illustration-characters-07.webp"
+    ],
+    "poster": "illustration-characters-07-sm.webp",
+    "width": 1080,
+    "height": 608
+   },
+   "ratio": "16:9",
+   "author": {
+    "name": "oran_ge",
+    "url": "https://x.com/oran_ge"
+   },
+   "sourceUrl": "https://x.com/oran_ge/status/2120037929615503812",
+   "needsReference": false,
+   "preview": "左右两格拼成一张，同一天的同一时刻。左格：黄昏村落广角，土墙、晒谷架、远处山脊和炊烟；右格：从屋内门框向外看同一个院子，前景有一盏将熄的油灯和一把缺口柴刀。两格的光线方向、色温、时间必须一致。各带一行中文标注，左格「清河村 · 黄昏」，右格「清河村 · 屋内」。",
+   "complete": true,
+   "prompt": "左右两格拼成一张，同一天的同一时刻。左格：黄昏村落广角，土墙、晒谷架、远处山脊和炊烟；右格：从屋内门框向外看同一个院子，前景有一盏将熄的油灯和一把缺口柴刀。两格的光线方向、色温、时间必须一致。各带一行中文标注，左格「清河村 · 黄昏」，右格「清河村 · 屋内」。",
+   "text": {
+    "en": {
+     "title": "Village at dusk, outside and inside, in one diptych",
+     "tags": [
+      "Storyboard",
+      "Short drama"
+     ]
+    },
+    "zh": {
+     "title": "同一时刻的村落内外双格图",
+     "tags": [
+      "分镜",
+      "短剧"
+     ]
+    },
+    "zh-TW": {
+     "title": "同一時刻的村落內外雙格圖",
+     "tags": [
+      "分鏡",
+      "短劇"
+     ]
+    },
+    "ko": {
+     "title": "같은 시각 마을 안팎 2컷",
+     "tags": [
+      "스토리보드",
+      "숏드라마"
+     ]
+    }
+   }
+  },
+  {
+   "id": "illustration-characters-08",
+   "category": "illustration-characters",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "illustration-characters-08.webp"
+    ],
+    "poster": "illustration-characters-08-sm.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   "ratio": "1:1",
+   "author": {
+    "name": "oran_ge",
+    "url": "https://x.com/oran_ge"
+   },
+   "sourceUrl": "https://x.com/oran_ge/status/2120037929615503812",
+   "needsReference": false,
+   "preview": "3×3 九宫格表情包，同一位少女：蓝发、鲸鱼尾巴、白色卫衣。九个格各一句中文标签，写在格中央偏下：只看一集、电子榨菜、再来一集、两倍速、砍头式剧透、真香、上头、断更了、完结撒花。每格配一件小道具（手机、泡面、遥控器、纸巾、行李箱……），九格同一画风、同一角色、同一光线。标签用黑色描边白字，必须九个字都对。格与格之间留细白缝。",
+   "complete": true,
+   "prompt": "3×3 九宫格表情包，同一位少女：蓝发、鲸鱼尾巴、白色卫衣。九个格各一句中文标签，写在格中央偏下：只看一集、电子榨菜、再来一集、两倍速、砍头式剧透、真香、上头、断更了、完结撒花。每格配一件小道具（手机、泡面、遥控器、纸巾、行李箱……），九格同一画风、同一角色、同一光线。标签用黑色描边白字，必须九个字都对。格与格之间留细白缝。",
+   "text": {
+    "en": {
+     "title": "3×3 meme sheet of a whale-tail girl",
+     "tags": [
+      "Grid layout",
+      "Anime"
+     ]
+    },
+    "zh": {
+     "title": "鲸鱼尾少女的九宫格表情包",
+     "tags": [
+      "多格拼图",
+      "二次元"
+     ]
+    },
+    "zh-TW": {
+     "title": "鯨魚尾少女的九宮格貼圖",
+     "tags": [
+      "多格拼圖",
+      "動漫"
+     ]
+    },
+    "ko": {
+     "title": "고래꼬리 소녀 3×3 밈 시트",
+     "tags": [
+      "그리드",
+      "애니메이션"
+     ]
+    }
+   }
+  },
+  {
+   "id": "illustration-characters-09",
+   "category": "illustration-characters",
+   "kind": "prompt",
+   "media": {
+    "type": "image",
+    "files": [
+     "illustration-characters-09.webp"
+    ],
+    "poster": "illustration-characters-09-sm.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   "ratio": "1:1",
+   "author": {
+    "name": "oran_ge",
+    "url": "https://x.com/oran_ge"
+   },
+   "sourceUrl": "https://x.com/oran_ge/status/2120037929615503812",
+   "needsReference": false,
+   "preview": "一只毛绒潮玩，鲸鱼尾少女。奶白色长绒，蓝色围裙，圆头大眼，尾巴自然卷曲。要毛毡质感：绒毛纤维一根根可见，围裙上有针脚，填充物把形体撑得圆但不僵硬。米色无缝背景，柔和棚拍光，正面站立，2:3 竖版，不要文字不要水印。",
+   "complete": true,
+   "prompt": "一只毛绒潮玩，鲸鱼尾少女。奶白色长绒，蓝色围裙，圆头大眼，尾巴自然卷曲。要毛毡质感：绒毛纤维一根根可见，围裙上有针脚，填充物把形体撑得圆但不僵硬。米色无缝背景，柔和棚拍光，正面站立，2:3 竖版，不要文字不要水印。",
+   "text": {
+    "en": {
+     "title": "Felt plush figure of a whale-tail girl",
+     "tags": [
+      "3D render",
+      "Handcraft"
+     ]
+    },
+    "zh": {
+     "title": "毛毡质感的鲸鱼尾少女潮玩",
+     "tags": [
+      "3D 渲染",
+      "手工质感"
+     ]
+    },
+    "zh-TW": {
+     "title": "毛氈質感的鯨魚尾少女公仔",
+     "tags": [
+      "3D 算圖",
+      "手工質感"
+     ]
+    },
+    "ko": {
+     "title": "펠트 질감 고래꼬리 소녀 피규어",
+     "tags": [
+      "3D 렌더",
+      "수공예"
+     ]
+    }
+   }
+  }
+ ]
+}
